@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.pio/
+firmware/**/test/host/build/
+tools/.fusion_out.txt
+tools/collision_vs_cad_cache.json
+stl/da/out/
+tools/collision_vs_cad_cache.json
+
+# Local-only files: AI tool configs, interview notes, secrets, editor locks
+CLAUDE.md
+AGENTS.md
+.claude/
+PROF_QA.md
+HANDOFF*.md
+.env
+*.lck

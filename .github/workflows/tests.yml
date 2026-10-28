@@ -1,0 +1,49 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  software:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: pip install -e "software[twin,sim,hw,tools,dev]"
+      - name: Firmware host tests (slcan core + main.cpp compile check)
+        run: sh firmware/base_controller/test/host/run.sh
+      - name: Python tests (kinematics, IK, twin, bridge end-to-end, design tools)
+        run: pytest software
+
+  firmware:
+    # Real builds with the Arduino toolchain, for both core branches the firmware README supports (2.0.x =
+    # ESP-IDF 4.4, 3.x = ESP-IDF 5): the base controller (ESP32-S3) and board C (ESP32-C3). Board options as
+    # in the two READMEs.
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        core: ["2.0.17", "3.3.12"]
+    env:
+      URL: https://espressif.github.io/arduino-esp32/package_esp32_index.json
+    steps:
+      - uses: actions/checkout@v4
+      - uses: arduino/setup-arduino-cli@v2
+      - name: Install the esp32 core ${{ matrix.core }}
+        run: |
+          arduino-cli core update-index --additional-urls "$URL"
+          arduino-cli core install "esp32:esp32@${{ matrix.core }}" --additional-urls "$URL"
+      - name: Compile for the ESP32-S3 (warnings are errors)
+        run: |
+          arduino-cli compile --fqbn esp32:esp32:esp32s3:CDCOnBoot=cdc,FlashSize=8M --warnings all \
+            firmware/base_controller 2>&1 | tee build.log
+          ! grep -i "base_controller.*warning" build.log
+      - name: Compile board C (joint_encoder) for the ESP32-C3 (warnings are errors)
+        # The shared src/mt6701 comes in as a library: a sketch can't include code outside its folder.
+        run: |
+          arduino-cli compile --fqbn esp32:esp32:esp32c3:CDCOnBoot=cdc --warnings all \
+            --library firmware/base_controller/src/mt6701 firmware/joint_encoder 2>&1 | tee build_c3.log
+          ! grep -iE "(joint_encoder|base_controller).*warning" build_c3.log

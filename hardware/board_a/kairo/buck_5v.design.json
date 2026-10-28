@@ -1,0 +1,379 @@
+{
+ "design": "deskarm_board_a_buck",
+ "policy": {
+  "margins": "stated"
+ },
+ "nets": {
+  "24V_LOGIC": {
+   "role": "power",
+   "voltage": "24V",
+   "tolerance": "1%"
+  },
+  "BUCK_EN": {
+   "role": "signal"
+  },
+  "BUCK_RT": {
+   "role": "signal"
+  },
+  "BUCK_BOOT": {
+   "role": "signal"
+  },
+  "BUCK_SW": {
+   "role": "signal"
+  },
+  "BUCK_COMP": {
+   "role": "signal"
+  },
+  "BUCK_COMP_RC": {
+   "role": "signal"
+  },
+  "BUCK_FB": {
+   "role": "signal"
+  },
+  "+5V": {
+   "role": "power",
+   "voltage": "5V"
+  },
+  "LED_5V_A": {
+   "role": "signal"
+  },
+  "GND": {
+   "role": "ground"
+  }
+ },
+ "components": {
+  "U1": {
+   "lib_id": "Regulator_Switching:TPS54560BDDA",
+   "footprint": "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias",
+   "params": {
+    "regulator": "switching",
+    "mpn": "TPS54560BDDAR",
+    "v_ref": "0.8V",
+    "v_ref_tolerance": "1%",
+    "f_sw": "450kHz",
+    "i_limit": "6.3A",
+    "i_out_max": "5A",
+    "theta_ja": "42degC/W",
+    "t_j_max": "150degC",
+    "i_q": "175uA"
+   },
+   "source": "TI TPS54560B datasheet SLVSF00 (January 2019): p.4 thermal (RthetaJA 42 degC/W) and recommended output current; p.5 electrical characteristics (voltage reference 0.792 to 0.808 V; switching frequency 450 to 550 kHz at RT = 200 kohm; current limit 6.3 A min; nonswitching supply current 175 uA max)",
+   "limits": {
+    "f_sw": "min",
+    "i_limit": "min",
+    "i_q": "max"
+   }
+  },
+  "C4": {
+   "lib_id": "Device:C",
+   "value": "4.7uF",
+   "params": {
+    "mpn": "HHV1206R7475K101NSPJ"
+   },
+   "footprint": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  "C5": {
+   "lib_id": "Device:C",
+   "value": "4.7uF",
+   "params": {
+    "mpn": "HHV1206R7475K101NSPJ"
+   },
+   "footprint": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  "C6": {
+   "lib_id": "Device:C",
+   "value": "100nF",
+   "params": {
+    "mpn": "AM03B104K500NT"
+   },
+   "footprint": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  "R9": {
+   "lib_id": "Device:R",
+   "value": "442k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film; value from TI SLVSF00 Figure 32",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "R10": {
+   "lib_id": "Device:R",
+   "value": "90.9k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film; value from TI SLVSF00 Figure 32",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "R11": {
+   "lib_id": "Device:R",
+   "value": "200k",
+   "params": {
+    "mpn": "ABD03K2003FT"
+   },
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "C7": {
+   "lib_id": "Device:C",
+   "value": "100nF",
+   "params": {
+    "mpn": "AM03B104K500NT"
+   },
+   "footprint": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  "L1": {
+   "lib_id": "Device:L",
+   "value": "6.8uH",
+   "params": {
+    "mpn": "ZEMS0730-6R8M"
+   },
+   "footprint": "Inductor_SMD:L_7.3x7.3_H4.5"
+  },
+  "D7": {
+   "lib_id": "Device:D_Schottky",
+   "value": "B560C",
+   "footprint": "Diode_SMD:D_SMC"
+  },
+  "R12": {
+   "lib_id": "Device:R",
+   "value": "16.9k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film; value from TI SLVSF00 Figure 32",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "C8": {
+   "lib_id": "Device:C",
+   "value": "4.7nF",
+   "params": {
+    "mpn": "CGA0603X7R472K500JT"
+   },
+   "footprint": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  "C9": {
+   "lib_id": "Device:C",
+   "value": "47pF",
+   "params": {
+    "mpn": "CSA0603C0G470J500JT"
+   },
+   "footprint": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  "R13": {
+   "lib_id": "Device:R",
+   "value": "53.6k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film; value from TI SLVSF00 Figure 32",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "R14": {
+   "lib_id": "Device:R",
+   "value": "10.2k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film; value from TI SLVSF00 Figure 32",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "C10": {
+   "lib_id": "Device:C",
+   "value": "47uF",
+   "params": {
+    "mpn": "HGC1210R5476M250NSVK"
+   },
+   "footprint": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  "C11": {
+   "lib_id": "Device:C",
+   "value": "47uF",
+   "params": {
+    "mpn": "HGC1210R5476M250NSVK"
+   },
+   "footprint": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  "C12": {
+   "lib_id": "Device:C",
+   "value": "47uF",
+   "params": {
+    "mpn": "HGC1210R5476M250NSVK"
+   },
+   "footprint": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  "R15": {
+   "lib_id": "Device:R",
+   "value": "1k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "D8": {
+   "lib_id": "Device:LED",
+   "value": "+5V green",
+   "params": {
+    "mpn": "F.0603.00025/P2-0603G1TS2-06T-002"
+   },
+   "footprint": "LED_SMD:LED_0603_1608Metric"
+  },
+  "J10": {
+   "lib_id": "Connector_Generic:Conn_01x02",
+   "value": "5V AUX",
+   "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+  }
+ },
+ "connections": {
+  "24V_LOGIC": [
+   "U1.VIN",
+   "C4.1",
+   "C5.1",
+   "C6.1",
+   "R9.1"
+  ],
+  "BUCK_EN": [
+   "U1.EN",
+   "R9.2",
+   "R10.1"
+  ],
+  "BUCK_RT": [
+   "U1.RT/CLK",
+   "R11.1"
+  ],
+  "BUCK_BOOT": [
+   "U1.BOOT",
+   "C7.1"
+  ],
+  "BUCK_SW": [
+   "U1.SW",
+   "C7.2",
+   "L1.1",
+   "D7.K"
+  ],
+  "BUCK_COMP": [
+   "U1.COMP",
+   "R12.1",
+   "C9.1"
+  ],
+  "BUCK_COMP_RC": [
+   "R12.2",
+   "C8.1"
+  ],
+  "BUCK_FB": [
+   "U1.FB",
+   "R13.2",
+   "R14.1"
+  ],
+  "+5V": [
+   "L1.2",
+   "R13.1",
+   "C10.1",
+   "C11.1",
+   "C12.1",
+   "R15.1",
+   "J10.Pin_1"
+  ],
+  "LED_5V_A": [
+   "R15.2",
+   "D8.A"
+  ],
+  "GND": [
+   "U1.GND*",
+   "C4.2",
+   "C5.2",
+   "C6.2",
+   "R10.2",
+   "R11.2",
+   "D7.A",
+   "C8.2",
+   "C9.2",
+   "R14.2",
+   "C10.2",
+   "C11.2",
+   "C12.2",
+   "D8.K",
+   "J10.Pin_2"
+  ]
+ },
+ "no_connect": [],
+ "loads": [
+  {
+   "net": "+5V",
+   "current": "2A",
+   "note": "design capacity for board B and the 5 V aux header (Josh: boards only, Pi on its own supply)"
+  }
+ ],
+ "requirements": [
+  {
+   "type": "rail_voltage",
+   "net": "+5V",
+   "nominal": "5V",
+   "tolerance": "5%"
+  },
+  {
+   "type": "max_inductor_current",
+   "component": "L1"
+  },
+  {
+   "type": "max_ripple",
+   "net": "+5V",
+   "value": "50mV"
+  },
+  {
+   "type": "min_capacitance",
+   "between": [
+    "24V_LOGIC",
+    "GND"
+   ],
+   "value": "3uF",
+   "basis": "effective"
+  },
+  {
+   "type": "max_component_power",
+   "component": "R15",
+   "derating": "50%"
+  }
+ ],
+ "blocks": {
+  "buck": [
+   "U1",
+   "C4",
+   "C5",
+   "C6",
+   "R9",
+   "R10",
+   "R11",
+   "C7",
+   "L1",
+   "D7",
+   "R12",
+   "C8",
+   "C9"
+  ],
+  "output": [
+   "R13",
+   "R14",
+   "C10",
+   "C11",
+   "C12",
+   "R15",
+   "D8",
+   "J10"
+  ]
+ },
+ "placement": {
+  "flow": "left_to_right",
+  "order": [
+   "buck",
+   "output"
+  ]
+ }
+}

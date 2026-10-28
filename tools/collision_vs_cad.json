@@ -1,0 +1,1016 @@
+[
+{
+"q": [
+-81.1,
+-48.4,
+106.8,
+-97.9,
+36.0,
+54.9,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-151.3,
+-54.0,
+53.5,
+14.9,
+-126.0,
+-16.2,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-26.3,
+32.0,
+158.9,
+43.9,
+-39.0,
+-75.1,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+3.8,
+93.9,
+93.7,
+-43.6,
+152.7,
+-7.0,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-133.5,
+-94.9,
+-101.4,
+92.3,
+64.7,
+83.8,
+0.0
+],
+"cad": {
+"DA_C2_Plate v4 x DA_P_N17_40 v1": 1741.7,
+"DA_P_N17_40 v1 x DA_P_N23_76 v1": 8568.65,
+"DA_P_N17_40 v1 x DA_P_Pulley_HTD20_8 v2": 16.99,
+"DA_P_Belt_C2 v2 x DA_P_N17_40 v1": 285.18,
+"DA_B_Spaces v1 x DA_C34_Plate v3": 712.89,
+"DA_B_Spaces v1 x DA_P_N17_60 v1": 5481.6
+},
+"capsules": [
+"J4 motor hits E-stop",
+"J2 motor hits J6 module"
+]
+},
+{
+"q": [
+-31.8,
+4.0,
+31.8,
+86.9,
+-22.3,
+94.1,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+112.0,
+-0.5,
+65.5,
+-38.6,
+8.2,
+-68.1,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-156.9,
+48.5,
+-14.8,
+95.5,
+120.7,
+-27.6,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+31.3,
+63.8,
+-31.6,
+-72.9,
+-118.2,
+-76.5,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-131.7,
+-115.2,
+113.2,
+-96.1,
+-17.8,
+-2.8,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+1.4,
+105.0,
+85.1,
+17.9,
+42.2,
+1.6,
+0.0
+],
+"cad": {
+"DA_B_Board v1 x DA_C34_Plate v3": 298.17,
+"DA_B_Board v1 x DA_P_N17_60 v1": 283.17,
+"DA_B_Board v1 x DA_P_Pulley_HTD20_5 v2": 2369.32,
+"DA_B_Board v1 x DA_P_Belt_C34 v2": 1473.67,
+"DA_B_Board v1 x DA_C34_Enccap v2": 325.2,
+"DA_B_Board v1 x DA_P_Encoder_C34 v2": 7422.78
+},
+"capsules": [
+"J4 module hits desk",
+"J6 module hits desk",
+"J6 module hits E-stop"
+]
+},
+{
+"q": [
+-92.9,
+45.4,
+18.7,
+-109.9,
+-73.4,
+102.5,
+0.0
+],
+"cad": {
+"DA_L_StandLeft v5 x DA_P_N17_40 v1": 1839.12
+},
+"capsules": [
+"J2 module hits J6 module"
+]
+},
+{
+"q": [
+-165.6,
+-48.8,
+-166.7,
+78.6,
+-140.3,
+-106.2,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-18.4,
+-43.6,
+-153.3,
+-26.5,
+-48.2,
+5.6,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-119.7,
+-69.6,
+-20.2,
+-47.4,
+40.8,
+-51.5,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+157.0,
+-105.7,
+-98.9,
+15.1,
+97.4,
+-104.6,
+0.0
+],
+"cad": {
+"DA_B_Board v1 x DA_G_Body v3": 564.01,
+"DA_B_Board v1 x DA_G_Fingers v2": 1261.99,
+"DA_B_Board v1 x DA_G_Carrier v2": 49.47,
+"DA_B_Board v1 x DA_P_Gripper v4": 84.91,
+"DA_B_Board v1 x DA_C34_Plate v3": 1051.11,
+"DA_B_Board v1 x DA_P_N17_60 v1": 341.96,
+"DA_B_Board v1 x DA_P_Pulley_HTD20_5 v2": 2728.47,
+"DA_B_Board v1 x DA_P_Belt_C34 v2": 1795.97,
+"DA_B_Board v1 x DA_C34_Enccap v2": 950.65,
+"DA_B_Board v1 x DA_P_Encoder_C34 v2": 7402.16
+},
+"capsules": [
+"tool hits desk",
+"J4 module hits desk",
+"desk: TCP"
+]
+},
+{
+"q": [
+-14.7,
+40.5,
+137.1,
+88.1,
+105.8,
+-107.3,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+39.0,
+-99.3,
+-83.3,
+29.0,
+-41.2,
+-12.8,
+0.0
+],
+"cad": {
+"DA_B_Spaces v1 x DA_C34_Plate v3": 3252.94,
+"DA_B_Spaces v1 x DA_C34_Pulley40 v2": 81.84,
+"DA_B_Spaces v1 x DA_P_N17_60 v1": 1615.32,
+"DA_B_Spaces v1 x DA_P_Pulley_HTD20_5 v2": 4082.34,
+"DA_B_Spaces v1 x DA_P_Belt_C34 v2": 3693.16,
+"DA_B_Spaces v1 x DA_C34_Enccap v2": 895.48,
+"DA_B_Spaces v1 x DA_P_Encoder_C34 v2": 239.03
+},
+"capsules": [
+"J4 module hits desk",
+"J4 module hits electronics",
+"J4 motor hits electronics",
+"J6 module hits desk",
+"J6 module hits electronics"
+]
+},
+{
+"q": [
+110.2,
+11.2,
+99.4,
+-22.6,
+170.8,
+25.2,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-155.0,
+91.8,
+20.2,
+51.3,
+-110.7,
+11.7,
+0.0
+],
+"cad": {
+"DA_B_Spaces v1 x DA_L_Link6 v5": 2077.96,
+"DA_B_Board v1 x DA_P7_Base v1": 2424.01,
+"DA_B_Spaces v1 x DA_P7_Base v1": 15880.28,
+"DA_B_Spaces v1 x DA_P7_Housing v2": 2119.01,
+"DA_B_Spaces v1 x DA_P7_Planet v1": 2.62,
+"DA_B_Board v1 x DA_P_N17_20 v1": 27176.13,
+"DA_B_Spaces v1 x DA_P_N17_20 v1": 18621.43,
+"DA_B_Spaces v1 x DA_P_Pulley_GT16_5 v2": 584.86,
+"DA_B_Spaces v1 x DA_P_Belt_P7 v2": 502.82
+},
+"capsules": [
+"wrist hits electronics",
+"tool hits desk",
+"tool hits electronics",
+"J7 motor hits desk",
+"J7 motor hits electronics",
+"desk: flange",
+"desk: TCP"
+]
+},
+{
+"q": [
+-134.1,
+-119.2,
+138.3,
+41.0,
+-106.2,
+-58.1,
+0.0
+],
+"cad": {
+"DA_B_Board v1 x DA_L_Link5 v6": 9279.65,
+"DA_B_Spaces v1 x DA_L_Link5 v6": 14153.17,
+"DA_B_Board v1 x DA_L_Link6 v5": 16434.12,
+"DA_B_Board v1 x DA_P56_Base v1": 4771.07,
+"DA_B_Spaces v1 x DA_P56_Base v1": 1564.37,
+"DA_B_Board v1 x DA_P56_Housing v2": 54137.92,
+"DA_B_Spaces v1 x DA_P56_Housing v2": 15912.35,
+"DA_B_Board v1 x DA_P56_Carrier1 v1": 1967.77,
+"DA_B_Board v1 x DA_P56_Spacer v1": 360.02,
+"DA_B_Board v1 x DA_P56_Planet2 v1": 4897.91,
+"DA_B_Board v1 x DA_P56_Planet1 v1": 2302.07,
+"DA_B_Spaces v1 x DA_P56_Planet1 v1": 1.86,
+"DA_B_Spaces v1 x DA_P56_Planet2 v1": 1.81,
+"DA_B_Board v1 x DA_P_N17_40 v1": 6066.07,
+"DA_B_Spaces v1 x DA_P_N17_40 v1": 131.76,
+"DA_B_Board v1 x DA_P56_Carrier2 v1": 5611.21,
+"DA_B_Board v1 x DA_P56_Flange v2": 5387.9,
+"DA_B_Board v1 x DA_P_SlipRing v2": 1183.9
+},
+"capsules": [
+"forearm hits desk",
+"wrist hits desk",
+"tool hits desk",
+"J6 module hits desk",
+"J6 module hits E-stop",
+"J7 motor hits desk",
+"desk: J6",
+"desk: J7",
+"desk: flange",
+"desk: TCP"
+]
+},
+{
+"q": [
+108.2,
+-91.8,
+159.0,
+106.5,
+-91.9,
+33.8,
+0.0
+],
+"cad": {
+"DA_P7_Base v1 x DeskArm_J1_Base_Housing v5": 332.81,
+"DA_B_Board v1 x DA_L_Link5 v6": 5676.01,
+"DA_B_Board v1 x DA_L_Link6 v5": 9859.05,
+"DA_B_Board v1 x DA_T_Receiver v4": 6392.76,
+"DA_B_Board v1 x DA_T_ToolPlate v3": 6290.03,
+"DA_B_Board v1 x DA_G_Body v3": 19357.93,
+"DA_B_Spaces v1 x DA_G_Body v3": 128.78,
+"DA_B_Board v1 x DA_G_Fingers v2": 1074.9,
+"DA_B_Board v1 x DA_G_Pads v1": 139.51,
+"DA_B_Board v1 x DA_G_Carrier v2": 5.35,
+"DA_B_Board v1 x DA_P_Gripper v4": 5844.14,
+"DA_B_Spaces v1 x DA_P_Gripper v4": 1157.21,
+"DA_B_Board v1 x DA_P56_Base v1": 3606.5,
+"DA_B_Board v1 x DA_P56_Housing v2": 33717.65,
+"DA_B_Board v1 x DA_P56_Carrier1 v1": 1011.19,
+"DA_B_Board v1 x DA_P56_Planet1 v1": 1535.58,
+"DA_B_Board v1 x DA_P56_Planet2 v1": 260.76,
+"DA_B_Board v1 x DA_P_N17_40 v1": 486.1,
+"DA_B_Board v1 x DA_P56_Carrier2 v1": 106.94,
+"DA_B_Board v1 x DA_P56_Flange v2": 46.12,
+"DA_B_Board v1 x DA_P7_Housing v2": 11685.69,
+"DA_B_Board v1 x DA_P7_Carrier v1": 25.66,
+"DA_B_Board v1 x DA_P7_Flange v2": 6545.64
+},
+"capsules": [
+"tool hits desk",
+"tool hits electronics",
+"J6 module hits desk",
+"desk: flange",
+"desk: TCP"
+]
+},
+{
+"q": [
+67.1,
+-99.1,
+-10.2,
+21.2,
+45.5,
+46.3,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-88.0,
+-83.2,
+-37.2,
+16.5,
+165.8,
+50.5,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+160.7,
+-55.7,
+-81.8,
+-18.6,
+-73.6,
+36.3,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-117.8,
+4.3,
+60.4,
+-1.6,
+148.9,
+56.9,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-132.0,
+-73.0,
+-147.7,
+79.0,
+166.6,
+-116.6,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+77.5,
+98.0,
+-78.1,
+51.5,
+-94.5,
+-101.8,
+0.0
+],
+"cad": {
+"DA_B_Spaces v1 x DA_L_Link6 v5": 2650.33,
+"DA_B_Spaces v1 x DA_T_Receiver v4": 3332.17,
+"DA_B_Spaces v1 x DA_T_ToolPlate v3": 2161.75,
+"DA_B_Board v1 x DA_G_Body v3": 175.89,
+"DA_B_Spaces v1 x DA_G_Body v3": 8252.09,
+"DA_B_Board v1 x DA_G_Fingers v2": 2634.28,
+"DA_B_Board v1 x DA_G_Pads v1": 235.89,
+"DA_B_Spaces v1 x DA_P_Gripper v4": 4438.19,
+"DA_B_Spaces v1 x DA_P7_Housing v2": 1599.5,
+"DA_B_Spaces v1 x DA_P_N17_20 v1": 957.94,
+"DA_B_Spaces v1 x DA_P7_Carrier v1": 49.21,
+"DA_B_Spaces v1 x DA_P7_Flange v2": 4591.23,
+"DA_B_Spaces v1 x DA_P7_Sliptube v1": 36.95
+},
+"capsules": [
+"tool hits desk",
+"tool hits E-stop",
+"J7 motor hits E-stop",
+"desk: TCP"
+]
+},
+{
+"q": [
+-155.6,
+47.9,
+-73.6,
+-3.0,
+141.0,
+-61.6,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-49.3,
+-74.3,
+-9.0,
+-76.4,
+107.6,
+27.6,
+0.0
+],
+"cad": {},
+"capsules": [
+"tool hits desk",
+"tool hits electronics",
+"J7 motor hits electronics"
+]
+},
+{
+"q": [
+160.9,
+-37.1,
+58.2,
+56.0,
+-84.5,
+-117.2,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+155.2,
+-79.1,
+-117.8,
+-16.2,
+35.1,
+117.4,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+165.9,
+-61.1,
+33.6,
+-15.4,
+-96.7,
+-104.3,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-48.1,
+-98.9,
+-118.7,
+-109.3,
+44.2,
+-1.7,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+9.0,
+-18.1,
+54.1,
+103.8,
+-52.8,
+34.8,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+149.6,
+28.2,
+-116.0,
+-58.3,
+-122.7,
+-77.0,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+109.8,
+-10.3,
+-75.8,
+-19.4,
+-83.7,
+56.1,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-71.7,
+-42.4,
+-108.3,
+57.2,
+-115.1,
+-47.9,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+86.9,
+-32.7,
+53.0,
+-67.9,
+-172.2,
+-42.6,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+114.7,
+-36.3,
+118.0,
+-107.9,
+8.0,
+-58.2,
+0.0
+],
+"cad": {},
+"capsules": [
+"J2 module hits tool"
+]
+},
+{
+"q": [
+-94.6,
+94.5,
+-67.3,
+106.9,
+-140.7,
+-16.8,
+0.0
+],
+"cad": {
+"DA_B_Spaces v1 x DA_P56_Base v1": 5883.72,
+"DA_B_Spaces v1 x DA_P56_Housing v2": 4741.45,
+"DA_B_Spaces v1 x DA_P56_Planet1 v1": 138.04,
+"DA_B_Board v1 x DA_P_N17_40 v1": 25250.01,
+"DA_B_Spaces v1 x DA_P_N17_40 v1": 60989.02
+},
+"capsules": [
+"tool hits desk",
+"tool hits electronics",
+"J6 module hits desk",
+"J6 module hits electronics"
+]
+},
+{
+"q": [
+71.2,
+-37.2,
+-2.6,
+-103.1,
+-68.0,
+54.0,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-12.7,
+-63.2,
+-113.7,
+-90.9,
+113.0,
+44.8,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-36.8,
+54.8,
+35.3,
+99.8,
+151.0,
+-4.3,
+0.0
+],
+"cad": {},
+"capsules": [
+"tool hits desk"
+]
+},
+{
+"q": [
+15.2,
+-45.5,
+-15.8,
+53.1,
+19.0,
+31.8,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+154.0,
+66.4,
+-125.5,
+75.4,
+150.3,
+76.0,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+-44.9,
+-61.6,
+-151.1,
+-6.7,
+126.2,
+64.5,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+118.0,
+38.2,
+-94.1,
+72.8,
+-47.7,
+93.6,
+0.0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+0,
+-30,
+0,
+120,
+0,
+90,
+0
+],
+"cad": {
+"DA_L_Link6 v5 x DA_P_N17_60 v1": 557.58,
+"DA_P_N17_60 v1 x DA_T_ToolPlate v3": 4.05,
+"DA_C34_Plate v3 x DA_G_Body v3": 658.34,
+"DA_G_Body v3 x DA_P_N17_60 v1": 4140.64,
+"DA_G_Body v3 x DA_P_Pulley_HTD20_5 v2": 176.79,
+"DA_G_Body v3 x DA_P_Belt_C34 v2": 216.33,
+"DA_C34_Plate v3 x DA_P_Gripper v4": 481.1,
+"DA_P_Gripper v4 x DA_P_N17_60 v1": 3660.64,
+"DA_P_Gripper v4 x DA_P_Pulley_HTD20_5 v2": 1915.2,
+"DA_P_Belt_C34 v2 x DA_P_Gripper v4": 513.65
+},
+"capsules": [
+"shoulder hits tool",
+"J2 module hits tool",
+"J3 motor hits tool"
+]
+},
+{
+"q": [
+0,
+0,
+0,
+120,
+0,
+120,
+0
+],
+"cad": {
+"DA_G_Body v3 x DA_L_Link2 v6": 3580.28,
+"DA_P_N17_60 v1 x DA_T_Receiver v4": 6760.04,
+"DA_P_N17_60 v1 x DA_T_ToolPlate v3": 10241.57,
+"DA_C34_Cover v2 x DA_G_Body v3": 1619.79,
+"DA_C34_Housing v2 x DA_G_Body v3": 2212.81,
+"DA_C34_Plate v3 x DA_G_Body v3": 238.92,
+"DA_C34_Disc v1 x DA_G_Body v3": 152.43,
+"DA_C34_Discb v1 x DA_G_Body v3": 119.77,
+"DA_G_Body v3 x DA_P_N17_60 v1": 22089.33,
+"DA_G_Body v3 x DA_P_Pulley_HTD20_5 v2": 1950.02,
+"DA_G_Body v3 x DA_P_Belt_C34 v2": 32.98,
+"DA_C34_Plate v3 x DA_G_Fingers v2": 589.79,
+"DA_G_Fingers v2 x DA_P_Encoder_C34 v2": 155.96,
+"DA_C34_Cover v2 x DA_G_Fingers v2": 1676.77,
+"DA_C34_Housing v2 x DA_G_Fingers v2": 29.03,
+"DA_C34_Enccap v2 x DA_G_Fingers v2": 56.68,
+"DA_G_Pads v1 x DA_P_Encoder_C34 v2": 156.19,
+"DA_C34_Plate v3 x DA_G_Pads v1": 137.1,
+"DA_C34_Pulley40 v2 x DA_G_Pads v1": 38.16,
+"DA_G_Pads v1 x DA_P_Belt_C34 v2": 30.9,
+"DA_C34_Cover v2 x DA_G_Carrier v2": 453.11,
+"DA_C34_Plate v3 x DA_G_Carrier v2": 176.5,
+"DA_P_Gripper v4 x DA_P_N17_60 v1": 7550.4,
+"DA_C34_Cover v2 x DA_P_Gripper v4": 243.33,
+"DA_C34_Disc v1 x DA_P_Gripper v4": 12.31,
+"DA_C34_Housing v2 x DA_P_Gripper v4": 3641.99,
+"DA_C34_Discb v1 x DA_P_Gripper v4": 280.19,
+"DA_C34_Carrier v1 x DA_P_Gripper v4": 150.47,
+"DA_P7_Flange v2 x DA_P_N17_60 v1": 3791.41,
+"DA_P7_Housing v2 x DA_P_N17_60 v1": 478.77
+},
+"capsules": [
+"shoulder hits tool",
+"upper arm hits tool",
+"J2 module hits tool",
+"J3 motor hits tool"
+]
+},
+{
+"q": [
+0,
+0,
+0,
+120,
+0,
+-120,
+0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+0,
+90,
+0,
+-120,
+0,
+0,
+0
+],
+"cad": {},
+"capsules": []
+},
+{
+"q": [
+0,
+60,
+90,
+120,
+0,
+90,
+0
+],
+"cad": {
+"DA_G_Body v3 x DA_L_TowerRight v3": 2295.24,
+"DA_G_Fingers v2 x DA_L_TowerRight v3": 1074.82,
+"DA_G_Carrier v2 x DA_L_TowerRight v3": 93.99,
+"DA_L_TowerRight v3 x DA_P_Gripper v4": 3944.96
+},
+"capsules": [
+"shoulder hits tool",
+"tower hits tool"
+]
+},
+{
+"q": [
+0,
+-60,
+-90,
+110,
+90,
+100,
+0
+],
+"cad": {
+"DA_C2_Cover v3 x DA_P56_Base v1": 3558.55,
+"DA_C2_Cover v3 x DA_P56_Housing v2": 4752.07,
+"DA_C2_Cover v3 x DA_P56_Sun1 v1": 525.5,
+"DA_C2_Cover v3 x DA_P56_Carrier1 v1": 1487.37,
+"DA_C2_Cover v3 x DA_P56_Planet1 v1": 1753.85,
+"DA_C2_Cover v3 x DA_P56_Planet2 v1": 1641.48,
+"DA_C2_Cover v3 x DA_P_N17_40 v1": 22228.11,
+"DA_C2_Cover v3 x DA_P56_Carrier2 v1": 119.59,
+"DA_C2_Housing v2 x DA_P56_Base v1": 26.6,
+"DA_C2_Housing v2 x DA_P56_Housing v2": 8873.17,
+"DA_C2_Housing v2 x DA_P56_Planet2 v1": 505.02,
+"DA_C2_Housing v2 x DA_P_N17_40 v1": 93.15,
+"DA_C2_Plate v4 x DA_P56_Base v1": 715.49,
+"DA_C2_Plate v4 x DA_P56_Housing v2": 3238.44,
+"DA_C2_Plate v4 x DA_P56_Carrier1 v1": 322.34,
+"DA_C2_Plate v4 x DA_P56_Planet2 v1": 600.97,
+"DA_C2_Plate v4 x DA_P56_Planet1 v1": 241.25,
+"DA_C2_Plate v4 x DA_P56_Carrier2 v1": 707.66,
+"DA_C2_Shaft v3 x DA_P56_Base v1": 37.37,
+"DA_C2_Shaft v3 x DA_P_N17_40 v1": 7620.14,
+"DA_C2_Pulley40 v3 x DA_P56_Base v1": 853.55,
+"DA_C2_Pulley40 v3 x DA_P56_Housing v2": 1119.82,
+"DA_C2_Disc v1 x DA_P56_Base v1": 1970.02,
+"DA_C2_Disc v1 x DA_P56_Housing v2": 1726.33,
+"DA_C2_Disc v1 x DA_P56_Carrier1 v1": 660.41,
+"DA_C2_Disc v1 x DA_P56_Planet1 v1": 895.81,
+"DA_C2_Disc v1 x DA_P_N17_40 v1": 11141.15,
+"DA_C2_Discb v1 x DA_P56_Base v1": 1758.44,
+"DA_C2_Discb v1 x DA_P56_Housing v2": 3817.54,
+"DA_C2_Discb v1 x DA_P56_Carrier1 v1": 47.48,
+"DA_C2_Discb v1 x DA_P56_Planet1 v1": 349.26,
+"DA_C2_Discb v1 x DA_P_N17_40 v1": 10924.13,
+"DA_P56_Base v1 x DA_P_Belt_C2 v2": 15.88,
+"DA_P56_Housing v2 x DA_P_Belt_C2 v2": 715.5,
+"DA_C2_Enccap v2 x DA_P56_Housing v2": 445.62,
+"DA_C2_Enccap v2 x DA_P56_Carrier1 v1": 42.14,
+"DA_C2_Carrier v1 x DA_P56_Base v1": 1789.07,
+"DA_C2_Carrier v1 x DA_P56_Housing v2": 838.64,
+"DA_C2_Carrier v1 x DA_P_N17_40 v1": 13147.32,
+"DA_C2_Flange v2 x DA_P_N17_40 v1": 144.51,
+"DA_P_Encoder_C2 v2 x DA_P_N17_40 v1": 1272.76
+},
+"capsules": [
+"J2 module hits J6 module"
+]
+},
+{
+"q": [
+0,
+120,
+0,
+0,
+0,
+0,
+0
+],
+"cad": {},
+"capsules": [
+"wrist hits desk",
+"tool hits desk",
+"J6 module hits desk",
+"J7 motor hits desk"
+]
+},
+{
+"q": [
+0,
+-120,
+0,
+0,
+0,
+0,
+0
+],
+"cad": {
+"DA_B_Spaces v1 x DA_L_Link5 v6": 1477.84
+},
+"capsules": [
+"forearm hits electronics",
+"wrist hits desk",
+"tool hits desk",
+"J6 module hits desk",
+"J7 motor hits desk"
+]
+}
+]

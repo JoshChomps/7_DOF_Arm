@@ -1,0 +1,74 @@
+category,item,qty,unit_price,currency,source,scope,status,buy_window,notes
+motion,LDO-42STH60-2004AC NEMA17 60mm 0.85 Nm 2.0 A (J1 J3 J4),3,27,CAD,local,core,bought,now,"Bought 8 Oct from Spool3D (spool3d.ca), free shipping over C$140. J3 and J4 share one actuator design: 2:1 belt + 24:1 cycloidal = 48:1. PH-6 socket + 800 mm cable to XH2.54"
+motion,NEMA23 76mm stepper 1.9 Nm 2.8 A LKD57HS76-2804-14 (J2),1,43,CAD,local,core,bought,now,Bought 8 Oct from Spool3D (with the LDO NEMA17s). 8 mm D-shaft: the 20T HTD-3M motor pulley needs an 8 mm bore. Rear shaft end for the MKS magnet not yet checked. 1.1 kg. Hardest joint: 2:1 belt + 24:1 cycloidal = 48:1 + counterbalance
+motion,LDO-42STH40-1684AC NEMA17 40mm 0.43-0.45 Nm 1.68 A (J5 J6),2,22,CAD,local,core,bought,now,Bought 8 Oct from Spool3D. Option B light wrist: 2-stage planetary 22.2:1 (J5 holds the tool sideways so it needs wrist-class torque)
+motion,LDO-42STH20-1004ASH NEMA17 20mm pancake 0.18 Nm 1.0 A (J7),1,24,CAD,local,core,bought,now,Bought 8 Oct from Spool3D. 15:1 = 3:1 belt + ~5:1 planetary; beside the axis so the slip ring passes through. 7.2 ohm (MKS limit 10). Set MKS current to 1000 mA
+motion,MKS SERVO42D CAN MB closed-loop driver,6,35.79,CAD,ali,core,bought,now,Bought 8 Oct from the Makerbase official store. J1 J3 J4 J5 J6 J7. MB = board without a motor (the 40/48 MT options include one). Check each kit has the magnet and standoffs
+motion,MKS SERVO57D CAN MB closed-loop driver,1,24.53,CAD,ali,core,bought,now,Bought 8 Oct (BEGRINT 3D Store; regular price C$32.90). J2
+mech,Output bearings 6810-2RS (50x65x7) for J1-J4,10,4.56,CAD,amazon,core,bought,now,Bought on Amazon.ca 8 Oct: C$90 final incl. tax for the 6810 + 6806 bearings together (split between the two rows is approximate; 8 needed + spares). AliExpress was dearer once shipping was added. 2 per joint. Design the gearboxes AROUND these so they can ship with W1; 50 mm bore leaves room for the harness
+mech,Output bearings 6806-2RS (30x42x7) for J5-J7,7,4.97,CAD,amazon,core,bought,now,Bought on Amazon.ca 8 Oct (see the 6810 row; 6 needed + 1 spare). 2 per wrist joint. Same idea: fixed before CAD
+mech,Bearing packs 6804-2RS + 624ZZ (10 each),1,21.26,CAD,ali,core,bought,now,Bought 8 Oct on AliExpress (listing price; order total not reported). 6804 = J2 eccentric and shaft supports (and J3/J4 if they change from 6802); 624 on 4 mm pins = bench planetary planets
+mech,Bearing packs for J3-J7: a second 6804-2RS 10-pack + 623ZZ x30,1,27,CAD,ali,core,need,11.11,J3/J4 use the 6804 as on J2 (D31). 623 on 3 mm pins = wrist planets (a 624 leaves < 1 mm of rim at module 1.0)
+mech,Input-shaft bearings 6802-2RS (15x24x5) 10-pack,1,8,USD,ali,core,need,11.11,"2 per cycloid module, J2-J4 = 6 (docs/20: the one-piece input shaft runs on them). Price is a typical listing, not checked. 26 Oct: the only bearings the J2 bench build still lacks (docs/24); a local order would unblock it before 11.11"
+mech,Counterbalance pulley bearing 608-2RS + M8 x 40 axle + nut,1,3,USD,ali,core,need,11.11,"Right tower fork (docs/20); the 608 seat is in the printed 28 mm pulley"
+mech,Dowel pins 6 x 30 mm (35+) + 4 x 20 mm (10),1,14.88,CAD,ali,core,bought,now,"Bought 8 Oct on AliExpress (listing price; order total not reported). J2 ring pins (25) + output pins; bench planetary planet axles. CAD count 20 Oct (tools/cad_bom.py, docs/21 §2): Ø6 x 30 x 25 (J2 ring pins: covered); Ø6 x 25 x 16 (J2 + J1 output pins: the 30s are too long, buy or cut); Ø4 x 8 x 6 (cycloid cover dowels: the 4 x 20 are too long)"
+mech,Dowel pins 5 mm (~60) + 3 mm (~25) + 6 mm steel balls,1,10,USD,ali,core,need,11.11,"J3/J4 ring pins + wrist planet axles + kinematic coupling. Lengths after the J2 bench result. CAD count 20 Oct (tools/cad_bom.py, docs/21 §2): Ø5 x 25 x 92 (J1 26 + J3/J4 50 ring pins, J3/J4 16 output pins), Ø5 x 10-20 x ~8 (link and flange dowels), Ø3 x 16 x 6 + x 24 x 6 (J5/J6 planets) + x 12 x 3 (J7); 3 x 6 mm balls + 6 magnets 6 x 3 (tool changer). So ~100 Ø5, not ~60"
+mech,Heat-set inserts M3/M4/M5 (brass),1,9.10,CAD,ali,core,bought,now,"Bought 8 Oct on AliExpress (listing price; order total not reported).. CAD count 20 Oct (tools/cad_bom.py, docs/21 §2): M3 ~74, M4 ~46, M5 4 (check the bought pack has that many)"
+mech,Screw kit M3/M4/M5 socket cap + nuts,1,30,CAD,amazon,core,need,now,"Amazon.ca kits were C$28-35 on 8 Oct; not confirmed bought. CAD count 20 Oct (tools/cad_bom.py, docs/21 §2): M3 ~87 (6-35 mm) + 24 motor screws M3 x 6, M4 ~60 (10-45 mm) + nuts for ~14, M5 4 x 12 + 4 for the NEMA23"
+mech,HTD-3M J2 stage: 20T 8 mm-bore pulley + 15 mm belts 276 and 282 mm,1,23.30,CAD,ali,core,bought,now,Bought 8 Oct on AliExpress (listing price; order total not reported). 20T motor / 40T printed; design the centre distance to the 276 mm belt (92.5 mm). Size the belt for the motor's HOLDING torque (docs/03)
+mech,HTD-3M J3/J4 stages: 2x 20T 5 mm-bore pulleys + 10 mm belts 2x 231 mm + 1x 234 mm,1,29.34,CAD,ali,core,need,11.11,"Centre distance 69.8 mm at 231 mm (J3/J4 housing drawn 20 Oct, docs/20)"
+mech,GT2 for J7: 16T 5 mm-bore pulley + 220 mm closed belt 6 mm wide,1,8,USD,ali,core,need,11.11,"Fixed by the wrist CAD (20 Oct): C 58.45 mm, 16T -> 80T printed; J5/J6 are direct planetary, no belt"
+mech,Extension spring(s) ~1.5 N/mm total + cable + pulley,1,10,USD,ali,core,need,11.11,"J2 counterbalance: zero-length spring ~1499 N/m (20 Oct CAD: a 70 b 98 mm, CAD masses), ~120 mm travel, ~219 N peak; DEFERRED (D41, docs/21 §1): may not be bought; size with python -m deskarm.counterbalance. Cable over a 608 pulley on an M8 axle"
+mech,8-wire 12.5 mm capsule slip ring (2 A/circuit),1,12,USD,ali,core,need,11.11,Continuous J7; 2 circuits each for 24 V and GND
+mech,PTFE grease (plastic safe),1,12,CAD,amazon,core,need,prime-day,
+mech,Carbon-fiber / aluminum stiffener rods for printed links,1,8,USD,ali,upgrade,need,11.11,Only if measured link deflection is too high
+filament,PLA (prototypes / fit tests / jigs),3,0,CAD,local,core,makerspace,anytime,Free at makerspace
+filament,PETG 1 kg,5,22,CAD,amazon,core,need,prime-day,~2.5 kg of final parts + supports + reprints
+filament,ASA 1 kg (friend's enclosed CORE One L),1,30,CAD,amazon,core,need,black-friday,Motor mounts / housings near hot motors
+filament,PETG-CF 0.5-1 kg (bench experiment only),1,40,CAD,amazon,upgrade,need,black-friday,Optional: the friend's CORE One L has a hardened nozzle so it can be printed
+filament,TPU 95A 1 kg,1,35,CAD,amazon,core,need,black-friday,Fingertips + tentacles. Not needed before the gripper (January)
+electronics,24 V 350 W PSU (Mean Well LRS-350-24),1,28,USD,amazon,core,bought,now,Bought on Amazon.ca (7 Oct order); price paid not recorded
+electronics,E-stop button (22 mm 1NO+1NC) + 24 V 40 A relay + inline fuse holders + blade fuses,1,27.25,CAD,ali,core,bought,now,Bought 8 Oct on AliExpress (listing price; order total not reported). Fuse price estimated. NC contact opens the relay coil; the other contact goes to GPIO6
+electronics,Silicone wire 18/22 AWG + 24 AWG twisted pair + zip ties,1,0,CAD,local,core,have,anytime,"Josh already has the wire. Harness (docs/21 §13): 24 V + GND in 18 AWG, CAN in a 24-26 AWG twisted pair, ~3.5 m of each from the base to J7 incl. service loops; 6 x 28 AWG for the gripper through J7. 3.6 mm zip ties"
+electronics,24 AWG wire for the CAN pair + XT30(2+2) connectors + 2x 2200-4700 uF 50 V bulk capacitors,1,12,USD,ali,core,need,11.11,XT30(2+2) carries 24 V + GND + CAN-H + CAN-L in one plug (docs/16); capacitors for the motor rail (docs/04); JST-GH leads deferred until the PCB connectors are chosen
+electronics,24 V to 5 V buck converter module (36 V+ input),1,5,CAD,ali,core,bought,now,Bought 8 Oct on AliExpress (listing price; order total not reported). Price estimated. Input rating must be 36 V or more (LM2596 / XL4015 / Mini560 Pro): the plain Mini560 is listed at 20 V max by several sellers
+electronics,24 V to 5 V buck converter module (36 V+ input),1,5,CAD,ali,core,need,11.11,Second one for the tool MCU / Pi until the custom PCBs replace them
+electronics,Pogo pins 2.54 mm + test pads,1,5,USD,ali,core,need,11.11,Tool changer
+electronics,Homing: A3144 hall switches x7 + 6x3 mm magnets x7,1,6,USD,ali,core,need,11.11,"One pair per joint J1-J7 (docs/21 §11): sensor pocket in the fixed side, magnet in the output, 1 mm gap; wires to that joint's driver IN_1. Buy 10 + 10 (the tool changer takes 6 more magnets, row Dowel pins)"
+electronics,ESP32-S3 dev board (DevKitC-1 N16R8),1,8,CAD,ali,core,bought,now,Bought 8 Oct on AliExpress (listing price; order total not reported). Price estimated. Base controller (USB-CAN bridge)
+electronics,ESP32-S3 dev boards (DevKitC-1 N16R8),2,8,CAD,ali,core,need,11.11,Tool MCUs + spare
+electronics,SN65HVD230 CAN transceiver modules,2,2.83,CAD,ali,core,bought,now,Bought 8 Oct on AliExpress (listing price; order total not reported).
+electronics,SN65HVD230 CAN transceiver modules,2,2.83,CAD,ali,core,need,11.11,Until custom PCBs replace them
+electronics,MT6701 output encoder modules (bench),2,7.18,CAD,ali,core,bought,now,Bought 8 Oct on AliExpress (listing price; order total not reported). Price includes C$6.77 shipping. Needs a diametric magnet. The actuator bench test measures backlash with these
+electronics,"Output encoders J2-J4: Ø6 x 150 steel rod x3 (cut to 134 / 116 / 116), MR126ZZ x3, Ø6 x 2.5 diametric magnets x5",1,8,USD,ali,core,need,11.11,"D42 / docs/21 §11: the rod is pressed into the link on the output and runs back through the hollow input shaft (Ø10.5) to the MR126 in the encoder cap; replaces D33's J3 tube + two 36T pulleys and the Ø8 magnets. Board C (MT6701) sits on the cap, 1 mm from the magnet"
+electronics,MT6701 / AS5600 output encoder modules (remaining joints),5,2,USD,ali,core,need,11.11,Joint-side angle for dual-loop control
+electronics,Custom PCBs order 1 (JLCPCB incl. shipping),1,30,USD,jlc,core,need,oct,Power/E-stop + base controller + encoder boards
+electronics,Custom PCBs order 2 (JLCPCB incl. shipping),1,30,USD,jlc,core,need,before-cny,Rev B + tool-changer boards
+electronics,Shipping not covered by free-shipping offers,1,15,USD,ali,core,need,now,Estimate. Was USD 35 while the ~4.5 kg of motors were coming from China; they now ship free within Canada (Spool3D). Replace with the real figure when you order
+gripper,"3-prong gripper (docs/06 §2 option A): N20 gearmotor with encoder and M3 x 50 lead-screw output shaft (300 rpm, 6 V), 693ZZ, 3x M3 nut, 6x Ø3 x 12 steel pin, DRV8833",1,12,USD,ali,core,need,11.11,"Drawn 20 Oct (DA_G_Body, DA_G_Fingers, DA_G_Carrier; docs/21 §12): cut the screw to 30 mm. Replaces the 2-finger drawing of the same night. The tool board (ESP32-C3, CAN, DRV8833, buck) is on its own row"
+gripper,"Tool board for the gripper: ESP32-C3 SuperMini, SN65HVD230 CAN module, DRV8833 module, 6 V buck",1,10,USD,ali,core,need,11.11,"docs/06 §1: each tool has its own MCU on the CAN bus. Space reserved: 40 x 36 x 7 mm on the gripper's board wall (docs/21 §12). A custom PCB later (Kairo)"
+controls,SimpleFOC Mini + 2804 gimbal motor w/ AS5600,1,25,USD,ali,core,need,now,FOC / torque-control learning testbed
+vision,iPhone 14 Pro as camera (DroidCam / Iriun) and LiDAR depth camera (Record3D),1,0,CAD,local,core,have,anytime,Start vision with your phone
+vision,Depth camera (Luxonis OAK-D Lite class),1,150,USD,ali,upgrade,have,black-friday,Not needed: the iPhone 14 Pro's LiDAR streams RGB-D through Record3D
+vision,1080p USB webcam (fixed desk camera),1,35,CAD,amazon,upgrade,need,prime-day,Optional if phone works well
+compute,Raspberry Pi 4 B 2 GB (onboard controller / ros2_control host),1,0,CAD,local,core,have,anytime,Headless; Pi 5 only if it struggles
+mech,18 mm plywood base board 500x500 + rubber feet + T-nuts,1,35,CAD,local,core,need,anytime,Carries arm + electronics; add paver weight or C-clamps
+mech,Paving stone ~5 kg (anti-tip weight),1,6,CAD,local,core,need,anytime,Or two C-clamps to the desk
+vision,iPhone apps: ZIG SIM Pro (ARKit pose) / Record3D (RGB-D),1,15,CAD,local,upgrade,need,anytime,Check current App Store prices
+tools,Digital calipers,1,25,CAD,amazon,tools,need,prime-day,Required
+tools,Metric hex key + ball-end driver set,1,20,CAD,amazon,tools,need,prime-day,
+tools,Soldering iron (Pinecil class) + heat-set insert tips,1,55,CAD,amazon,tools,need,prime-day,Makerspace has one; this is for home
+tools,Multimeter,1,30,CAD,amazon,tools,need,prime-day,
+tools,Wire strippers + flush cutters,1,30,CAD,amazon,tools,need,prime-day,
+tools,Crimper for XT30/JST-XH/Dupont (IWISS SN-28B class),1,30,CAD,amazon,tools,need,prime-day,
+tools,USB logic analyzer 24 MHz 8-ch (sigrok/PulseView),1,13.86,CAD,ali,tools,bought,now,Bought 8 Oct on AliExpress (listing price; order total not reported). Price includes C$7.36 shipping. Decodes CAN/I2C/SPI
+tools,USB-CAN adapter (MKS CANable V2.0 Pro; isolated),1,30.58,CAD,ali,tools,bought,now,Bought 8 Oct (BEGRINT 3D Store). Known-good reference while the ESP32-S3 bridge firmware is untested on hardware; works with python-can (slcan / gs_usb)
+tools,Solder + flux + wick + fine tweezers,1,35,CAD,amazon,tools,need,prime-day,SMD work
+tools,Thread taps M3/M4/M5 + deburring tool,1,25,CAD,amazon,tools,need,prime-day,
+tools,Threadlocker 243 + heat-shrink kit,1,20,CAD,amazon,tools,need,prime-day,
+tools,Luggage scale (torque tests),1,10,CAD,amazon,tools,need,prime-day,
+tools,Dial indicator + magnetic base,1,18,USD,ali,tools,makerspace,now,Backlash tests
+tools,Oscilloscope / bench PSU / hot air / laser cutter / saw / lathe,1,0,CAD,local,tools,makerspace,anytime,
+later,Octopus gripper: 3 servos + Dyneema + extra TPU,1,35,USD,ali,later,need,anniversary,
+later,Octopus suction add-on: mini vacuum pump + valve + cups,1,20,USD,ali,later,need,anniversary,
+later,Amazing Hand: 8 servos + parts,1,150,USD,ali,later,need,anniversary,

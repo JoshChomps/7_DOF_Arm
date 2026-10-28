@@ -1,0 +1,100 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c34e161b-1f8f-5ec2-b223-1249fc40dff3")
+	(paper "A4")
+	(title_block
+		(title "Board A: power and E-stop (rev A draft)")
+		(comment 1 "Sub-sheets drawn and checked by Kairo one sheet at a time; joined by power nets (global)")
+	)
+	(lib_symbols)
+	(sheet
+		(at 30.0 40)
+		(size 60 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b078f29-abba-5f34-ba14-b28c6330f613")
+		(property "Sheetname" "power_estop"
+			(at 30.0 39.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_estop.kicad_sch"
+			(at 30.0 70.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "deskarm_board_a"
+				(path "/c34e161b-1f8f-5ec2-b223-1249fc40dff3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.0 40)
+		(size 60 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "786de202-38ed-5a92-8b3e-5d5d314a3ed1")
+		(property "Sheetname" "buck_5v"
+			(at 110.0 39.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_5v.kicad_sch"
+			(at 110.0 70.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "deskarm_board_a"
+				(path "/c34e161b-1f8f-5ec2-b223-1249fc40dff3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

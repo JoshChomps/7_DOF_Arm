@@ -1,0 +1,126 @@
+{
+ "coupons": [
+  {
+   "hours": 3.14,
+   "grams": 104.6,
+   "warnings": [],
+   "parts": [
+    "bearings (Z+)",
+    "pegs (Z+)"
+   ]
+  },
+  {
+   "hours": 1.99,
+   "grams": 54.1,
+   "warnings": [
+    "not_support_traditional_timelapse"
+   ],
+   "parts": [
+    "pins (Z+)",
+    "inserts (Z+)"
+   ]
+  }
+ ],
+ "rings": [
+  {
+   "hours": 1.11,
+   "grams": 42.7,
+   "warnings": [],
+   "parts": [
+    "rings_6810 (Z+)"
+   ]
+  },
+  {
+   "hours": 0.71,
+   "grams": 23.5,
+   "warnings": [],
+   "parts": [
+    "rings_6806 (Z+)"
+   ]
+  }
+ ],
+ "c2": [
+  {
+   "hours": 12.47,
+   "grams": 304.4,
+   "warnings": [
+    "not_support_traditional_timelapse"
+   ],
+   "parts": [
+    "DA_C2_Housing (Z-)",
+    "DA_C2_Shaft (Z-)"
+   ]
+  },
+  {
+   "hours": 4.33,
+   "grams": 105.7,
+   "warnings": [
+    "not_support_traditional_timelapse"
+   ],
+   "parts": [
+    "DA_C2_Cover (Z-)",
+    "DA_C2_Enccap (Z+)"
+   ]
+  },
+  {
+   "hours": 4.76,
+   "grams": 117.3,
+   "warnings": [
+    "not_support_traditional_timelapse"
+   ],
+   "parts": [
+    "DA_C2_Flange (Z-)",
+    "DA_C2_Pulley40 (Z+)"
+   ]
+  },
+  {
+   "hours": 1.57,
+   "grams": 41.2,
+   "warnings": [
+    "not_support_traditional_timelapse"
+   ],
+   "parts": [
+    "DA_C2_Discb (Z+)",
+    "DA_C2_Spacers (Z+)"
+   ]
+  },
+  {
+   "hours": 1.41,
+   "grams": 35.2,
+   "warnings": [
+    "not_support_traditional_timelapse"
+   ],
+   "parts": [
+    "DA_C2_Disc (Z+)"
+   ]
+  },
+  {
+   "hours": 1.71,
+   "grams": 39.6,
+   "warnings": [
+    "not_support_traditional_timelapse"
+   ],
+   "parts": [
+    "DA_C2_Carrier (Z+)"
+   ]
+  }
+ ],
+ "bench": [
+  {
+   "hours": 2.79,
+   "grams": 82.5,
+   "warnings": [],
+   "parts": [
+    "C2_Lever (Z+)"
+   ]
+  },
+  {
+   "hours": 3.82,
+   "grams": 104.7,
+   "warnings": [],
+   "parts": [
+    "C2_Stand (Z+)"
+   ]
+  }
+ ]
+}

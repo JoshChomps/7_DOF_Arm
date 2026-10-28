@@ -1,0 +1,45 @@
+DA_C2_Carrier {'printer': 'A1M', 'time_h': 1.78, 'grams': 39.7, 'supports': True, 'warnings': [], 'size': [13, 74, 74]}
+DA_C2_Cover {'printer': 'A1M', 'time_h': 3.73, 'grams': 91.07, 'supports': True, 'warnings': [], 'size': [30, 121, 121]}
+DA_C2_Disc {'printer': 'A1M', 'time_h': 1.5, 'grams': 35.22, 'supports': True, 'warnings': [], 'size': [7, 96, 96]}
+DA_C2_Discb {'printer': 'A1M', 'time_h': 1.5, 'grams': 35.21, 'supports': True, 'warnings': [], 'size': [7, 97, 97]}
+DA_C2_Flange {'printer': 'A1M', 'time_h': 3.66, 'grams': 98.37, 'supports': True, 'warnings': [], 'size': [39, 117, 117]}
+DA_C2_Housing {'error': ['Slic3r::CLI::run found error, exit'], 'size': [60, 132, 144]}
+DA_C2_Pulley40 {'printer': 'A1M', 'time_h': 1.29, 'grams': 18.37, 'supports': True, 'warnings': [], 'size': [24, 42, 42]}
+DA_C2_Shaft {'printer': 'A1M', 'time_h': 1.14, 'grams': 14.18, 'supports': True, 'warnings': ['not_support_traditional_timelapse', 'not_support_traditional_timelapse'], 'size': [23, 26, 80]}
+DA_C2_Spacers {'printer': 'A1M', 'time_h': 0.31, 'grams': 6.07, 'supports': True, 'warnings': [], 'size': [16, 54, 54]}
+DA_C34_Carrier {'printer': 'A1M', 'time_h': 1.35, 'grams': 27.38, 'supports': True, 'warnings': [], 'size': [13, 60, 60]}
+DA_C34_Cover {'printer': 'A1M', 'time_h': 2.47, 'grams': 54.27, 'supports': True, 'warnings': [], 'size': [22, 90, 90]}
+DA_C34_Disc {'printer': 'A1M', 'time_h': 0.87, 'grams': 17.26, 'supports': True, 'warnings': [], 'size': [7, 68, 68]}
+DA_C34_Discb {'printer': 'A1M', 'time_h': 0.87, 'grams': 17.34, 'supports': True, 'warnings': [], 'size': [7, 69, 69]}
+DA_C34_Flange {'printer': 'A1M', 'time_h': 2.6, 'grams': 65.86, 'supports': True, 'warnings': [], 'size': [35, 86, 86]}
+DA_C34_Housing {'printer': 'A1M', 'time_h': 5.67, 'grams': 138.67, 'supports': True, 'warnings': [], 'size': [54, 101, 112]}
+DA_C34_Pulley40 {'printer': 'A1M', 'time_h': 1.03, 'grams': 14.48, 'supports': True, 'warnings': [], 'size': [19, 42, 42]}
+DA_C34_Shaft {'printer': 'A1M', 'time_h': 0.99, 'grams': 12.29, 'supports': True, 'warnings': ['not_support_traditional_timelapse', 'not_support_traditional_timelapse'], 'size': [23, 25, 67]}
+DA_C34_Spacers {'printer': 'A1M', 'time_h': 0.9, 'grams': 19.23, 'supports': True, 'warnings': ['not_support_traditional_timelapse', 'not_support_traditional_timelapse'], 'size': [19, 90, 90]}
+DA_L_CBPulley {'printer': 'A1M', 'time_h': 0.28, 'grams': 3.37, 'supports': True, 'warnings': [], 'size': [8, 28, 28]}
+DA_L_Forearm {'printer': 'A1M', 'time_h': 3.38, 'grams': 98.76, 'supports': True, 'warnings': [], 'size': [92, 92, 98]}
+DA_L_Link2 {'printer': 'A1M', 'time_h': 5.06, 'grams': 127.23, 'supports': True, 'warnings': [], 'size': [120, 129, 161]}
+DA_L_Link3 {'printer': 'A1M', 'time_h': 3.72, 'grams': 107.93, 'supports': True, 'warnings': [], 'size': [98, 124, 131]}
+DA_L_Link5 {'error': ['Slic3r::CLI::run found error, exit'], 'size': [92, 106, 159]}
+DA_L_Link6 {'printer': 'A1M', 'time_h': 2.44, 'grams': 57.86, 'supports': True, 'warnings': [], 'size': [77, 89, 92]}
+DA_L_StandLeft {'printer': 'H2D', 'time_h': 4.33, 'grams': 151.58, 'supports': True, 'warnings': [], 'size': [69, 164, 217]}
+DA_L_TowerRight {'printer': 'H2D', 'time_h': 4.29, 'grams': 81.39, 'supports': True, 'warnings': [], 'size': [44, 80, 218]}
+DA_P56_Base {'printer': 'A1M', 'time_h': 0.79, 'grams': 18.41, 'supports': True, 'warnings': [], 'size': [5, 72, 72]}
+DA_P56_Carrier1 {'printer': 'A1M', 'time_h': 0.65, 'grams': 10.18, 'supports': True, 'warnings': [], 'size': [23, 48, 48]}
+DA_P56_Carrier2 {'printer': 'A1M', 'time_h': 0.89, 'grams': 20.24, 'supports': True, 'warnings': [], 'size': [26, 48, 48]}
+DA_P56_Flange {'printer': 'A1M', 'time_h': 0.83, 'grams': 17.93, 'supports': True, 'warnings': [], 'size': [8, 64, 64]}
+DA_P56_Housing {'printer': 'A1M', 'time_h': 5.77, 'grams': 138.71, 'supports': True, 'warnings': [], 'size': [64, 88, 88]}
+DA_P56_Planet1 {'printer': 'A1M', 'time_h': 0.34, 'grams': 3.06, 'supports': True, 'warnings': [], 'size': [12, 21, 21]}
+DA_P56_Planet2 {'printer': 'A1M', 'time_h': 0.45, 'grams': 4.66, 'supports': True, 'warnings': [], 'size': [18, 21, 21]}
+DA_P56_Spacer {'printer': 'A1M', 'time_h': 0.23, 'grams': 1.23, 'supports': True, 'warnings': ['not_support_traditional_timelapse', 'not_support_traditional_timelapse'], 'size': [6, 33, 33]}
+DA_P56_Sun1 {'printer': 'A1M', 'time_h': 0.3, 'grams': 1.88, 'supports': True, 'warnings': [], 'size': [12, 16, 16]}
+DA_P7_Base {'printer': 'A1M', 'time_h': 1.51, 'grams': 35.98, 'supports': True, 'warnings': [], 'size': [8, 66, 117]}
+DA_P7_Carrier {'printer': 'A1M', 'time_h': 0.71, 'grams': 15.75, 'supports': True, 'warnings': [], 'size': [23, 44, 44]}
+DA_P7_Flange {'printer': 'A1M', 'time_h': 0.7, 'grams': 14.19, 'supports': True, 'warnings': [], 'size': [10, 50, 50]}
+DA_P7_Housing {'printer': 'A1M', 'time_h': 2.69, 'grams': 63.2, 'supports': True, 'warnings': [], 'size': [34, 78, 90]}
+DA_P7_Planet {'printer': 'A1M', 'time_h': 0.25, 'grams': 1.17, 'supports': True, 'warnings': ['not_support_traditional_timelapse', 'not_support_traditional_timelapse'], 'size': [10, 14, 14]}
+DA_P7_Pulley80 {'printer': 'A1M', 'time_h': 0.91, 'grams': 16.07, 'supports': True, 'warnings': [], 'size': [10, 54, 54]}
+DA_P7_Spacer {'printer': 'A1M', 'time_h': 0.2, 'grams': 0.84, 'supports': True, 'warnings': ['not_support_traditional_timelapse', 'not_support_traditional_timelapse'], 'size': [4, 33, 33]}
+DA_P7_Sunshaft {'printer': 'A1M', 'time_h': 0.55, 'grams': 5.44, 'supports': True, 'warnings': ['not_support_traditional_timelapse', 'not_support_traditional_timelapse'], 'size': [26, 26, 28]}
+DA_T_Receiver {'printer': 'A1M', 'time_h': 0.92, 'grams': 16.62, 'supports': True, 'warnings': ['not_support_traditional_timelapse', 'not_support_traditional_timelapse'], 'size': [13, 50, 50]}
+DA_T_ToolPlate {'printer': 'A1M', 'time_h': 0.67, 'grams': 13.64, 'supports': True, 'warnings': [], 'size': [8, 50, 50]}

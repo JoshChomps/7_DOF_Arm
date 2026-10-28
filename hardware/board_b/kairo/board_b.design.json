@@ -1,0 +1,941 @@
+{
+ "design": "deskarm_board_b",
+ "policy": {
+  "margins": "stated",
+  "theta_ja_margin": "20%"
+ },
+ "nets": {
+  "VBUS": {
+   "role": "power",
+   "voltage": "5V",
+   "tolerance": "5%"
+  },
+  "+5V": {
+   "role": "power",
+   "voltage": "5V",
+   "tolerance": "3%"
+  },
+  "+5VD": {
+   "role": "power",
+   "voltage": "5V",
+   "tolerance": "15%"
+  },
+  "+3V3": {
+   "role": "power",
+   "voltage": "3.3V"
+  },
+  "EN": {
+   "role": "signal"
+  },
+  "IO0_BOOT": {
+   "role": "signal"
+  },
+  "CC1": {
+   "role": "signal"
+  },
+  "CC2": {
+   "role": "signal"
+  },
+  "USB_DP": {
+   "role": "signal"
+  },
+  "USB_DN": {
+   "role": "signal"
+  },
+  "CAN_TX": {
+   "role": "signal"
+  },
+  "CAN_RX": {
+   "role": "signal"
+  },
+  "CAN_RS": {
+   "role": "signal"
+  },
+  "CANH": {
+   "role": "signal"
+  },
+  "CANL": {
+   "role": "signal"
+  },
+  "CAN_TERM": {
+   "role": "signal"
+  },
+  "ESTOP_IN": {
+   "role": "signal"
+  },
+  "ESTOP": {
+   "role": "signal"
+  },
+  "LED_DIN": {
+   "role": "signal"
+  },
+  "HALL1": {
+   "role": "signal"
+  },
+  "HALL2": {
+   "role": "signal"
+  },
+  "ENC_CSN": {
+   "role": "signal"
+  },
+  "ENC_CLK": {
+   "role": "signal"
+  },
+  "ENC_DO": {
+   "role": "signal"
+  },
+  "I2C_SDA": {
+   "role": "signal"
+  },
+  "I2C_SCL": {
+   "role": "signal"
+  },
+  "INA_ALERT": {
+   "role": "signal"
+  },
+  "MOTOR_EN": {
+   "role": "signal"
+  },
+  "TXD0": {
+   "role": "signal"
+  },
+  "RXD0": {
+   "role": "signal"
+  },
+  "LED_PWR_A": {
+   "role": "signal"
+  },
+  "GND": {
+   "role": "ground"
+  },
+  "GPIO11": {
+   "role": "signal"
+  },
+  "GPIO15": {
+   "role": "signal"
+  },
+  "GPIO16": {
+   "role": "signal"
+  },
+  "GPIO17": {
+   "role": "signal"
+  },
+  "GPIO18": {
+   "role": "signal"
+  },
+  "GPIO21": {
+   "role": "signal"
+  },
+  "GPIO38": {
+   "role": "signal"
+  },
+  "GPIO39": {
+   "role": "signal"
+  },
+  "GPIO40": {
+   "role": "signal"
+  },
+  "GPIO41": {
+   "role": "signal"
+  },
+  "GPIO42": {
+   "role": "signal"
+  },
+  "GPIO47": {
+   "role": "signal"
+  }
+ },
+ "components": {
+  "U1": {
+   "lib_id": "RF_Module:ESP32-S3-WROOM-1",
+   "value": "ESP32-S3-WROOM-1-N8",
+   "footprint": "RF_Module:ESP32-S3-WROOM-1",
+   "params": {
+    "i_supply": "107.9mA"
+   },
+   "source": "Espressif ESP32-S3-WROOM-1 datasheet v1.8 Table 6-6 p.29: 107.9 mA typical at 240 MHz, dual core, all peripheral clocks on, Wi-Fi off (no maximum is published)"
+  },
+  "R1": {
+   "lib_id": "Device:R",
+   "value": "10k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "C3": {
+   "lib_id": "Device:C",
+   "value": "1uF",
+   "params": {
+    "mpn": "HGC0603R7105K250NTHJ"
+   },
+   "footprint": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  "SW1": {
+   "lib_id": "Switch:SW_Push",
+   "value": "RESET",
+   "footprint": "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+  },
+  "R2": {
+   "lib_id": "Device:R",
+   "value": "10k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "SW2": {
+   "lib_id": "Switch:SW_Push",
+   "value": "BOOT",
+   "footprint": "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+  },
+  "J1": {
+   "lib_id": "Connector:USB_C_Receptacle_USB2.0_16P",
+   "value": "USB-C (native USB, CDC)",
+   "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+  },
+  "R3": {
+   "lib_id": "Device:R",
+   "value": "5.1k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "R4": {
+   "lib_id": "Device:R",
+   "value": "5.1k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "U2": {
+   "lib_id": "Power_Protection:USBLC6-2SC6",
+   "value": "USBLC6-2SC6",
+   "footprint": "Package_TO_SOT_SMD:SOT-23-6"
+  },
+  "D2": {
+   "lib_id": "Device:D_Schottky",
+   "value": "SS14",
+   "footprint": "Diode_SMD:D_SMA",
+   "params": {
+    "v_f": "0.5V",
+    "i_rating": "1A",
+    "v_rating": "40V"
+   },
+   "limits": {
+    "v_f": "max"
+   },
+   "source": "Vishay SS12-SS16 datasheet (doc 88746): VF 0.50 V max at 1.0 A for SS12-SS14, IF(AV) 1.0 A, VRRM 40 V for SS14"
+  },
+  "D3": {
+   "lib_id": "Device:D_Schottky",
+   "value": "SS14",
+   "footprint": "Diode_SMD:D_SMA",
+   "params": {
+    "v_f": "0.5V",
+    "i_rating": "1A",
+    "v_rating": "40V"
+   },
+   "limits": {
+    "v_f": "max"
+   },
+   "source": "Vishay SS12-SS16 datasheet (doc 88746): VF 0.50 V max at 1.0 A for SS12-SS14, IF(AV) 1.0 A, VRRM 40 V for SS14"
+  },
+  "U3": {
+   "lib_id": "Interface_CAN_LIN:SN65HVD230",
+   "value": "SN65HVD230",
+   "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+   "params": {
+    "i_supply": "17mA"
+   },
+   "limits": {
+    "i_supply": "max"
+   },
+   "source": "TI SN65HVD230 datasheet SLOS346 p.7: ICC 17 mA max, dominant or recessive, no bus load"
+  },
+  "R5": {
+   "lib_id": "Device:R",
+   "value": "0R (Rs: 10k-100k = slope control)",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "R6": {
+   "lib_id": "Device:R",
+   "value": "120",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.25W"
+   },
+   "source": "generic 1206 1% thick film",
+   "footprint": "Resistor_SMD:R_1206_3216Metric"
+  },
+  "JP1": {
+   "lib_id": "Jumper:Jumper_2_Open",
+   "value": "CAN TERM (fit = bus end)",
+   "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+  },
+  "J2": {
+   "lib_id": "Connector_Generic:Conn_01x03",
+   "value": "CAN A: H L GND",
+   "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+  },
+  "J3": {
+   "lib_id": "Connector_Generic:Conn_01x03",
+   "value": "CAN B: H L GND",
+   "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+  },
+  "TP1": {
+   "lib_id": "Connector:TestPoint",
+   "value": "CANH",
+   "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+  },
+  "TP2": {
+   "lib_id": "Connector:TestPoint",
+   "value": "CANL",
+   "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+  },
+  "TP3": {
+   "lib_id": "Connector:TestPoint",
+   "value": "CAN_TX",
+   "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+  },
+  "TP4": {
+   "lib_id": "Connector:TestPoint",
+   "value": "CAN_RX",
+   "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+  },
+  "J4": {
+   "lib_id": "Connector_Generic:Conn_01x02",
+   "value": "E-STOP AUX NC (to GND)",
+   "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+  },
+  "R7": {
+   "lib_id": "Device:R",
+   "value": "10k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "R8": {
+   "lib_id": "Device:R",
+   "value": "1k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "C7": {
+   "lib_id": "Device:C",
+   "value": "100nF",
+   "params": {
+    "mpn": "AM03B104K500NT"
+   },
+   "footprint": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  "D1": {
+   "lib_id": "LED:WS2812B-2020",
+   "value": "WS2812B-2020 status",
+   "footprint": "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+  },
+  "J5": {
+   "lib_id": "Connector_Generic:Conn_01x03",
+   "value": "HALL 1: 5V GND OUT",
+   "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+  },
+  "J6": {
+   "lib_id": "Connector_Generic:Conn_01x03",
+   "value": "HALL 2: 5V GND OUT",
+   "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+  },
+  "R9": {
+   "lib_id": "Device:R",
+   "value": "10k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "R10": {
+   "lib_id": "Device:R",
+   "value": "10k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "J7": {
+   "lib_id": "Connector_Generic:Conn_01x05",
+   "value": "MT6701 SSI: 3V3 GND CSN CLK DO",
+   "footprint": "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+  },
+  "R11": {
+   "lib_id": "Device:R",
+   "value": "10k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "R12": {
+   "lib_id": "Device:R",
+   "value": "10k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "J8": {
+   "lib_id": "Connector_Generic:Conn_01x08",
+   "value": "TO BOARD A",
+   "footprint": "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
+  },
+  "R13": {
+   "lib_id": "Device:R",
+   "value": "4.7k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "R14": {
+   "lib_id": "Device:R",
+   "value": "4.7k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "R15": {
+   "lib_id": "Device:R",
+   "value": "10k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "J9": {
+   "lib_id": "Connector_Generic:Conn_01x03",
+   "value": "UART0: TX RX GND",
+   "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+  },
+  "J10": {
+   "lib_id": "Connector_Generic:Conn_01x14",
+   "value": "SPARE GPIO",
+   "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical"
+  },
+  "U4": {
+   "lib_id": "Regulator_Linear:AP2112K-3.3",
+   "value": "AP2112K-3.3",
+   "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+   "params": {
+    "regulator": "linear",
+    "mpn": "AP2112K-3.3TRG1",
+    "v_out": "3.3V",
+    "v_out_tolerance": "1.5%",
+    "v_dropout": "0.4V",
+    "i_out_max": "600mA",
+    "i_q": "80uA",
+    "theta_ja": "96degC/W",
+    "c_out_min": "1uF"
+   },
+   "limits": {
+    "v_dropout": "max",
+    "i_out_max": "min",
+    "i_q": "max"
+   },
+   "source": "Diodes AP2112 datasheet DS39724 Rev. 2-2 (June 2017): p.1 output accuracy 1.5% and stable with 1.0 uF ceramic; p.8 (3.3 V) maximum output current 600 mA min, dropout 400 mV max at 600 mA, quiescent current 80 uA max, thetaJA 96 degC/W (SOT25)"
+  },
+  "C4": {
+   "lib_id": "Device:C",
+   "value": "10uF",
+   "params": {
+    "mpn": "HGC0805R5106K250NSLJ"
+   },
+   "footprint": "Capacitor_SMD:C_0805_2012Metric"
+  },
+  "C5": {
+   "lib_id": "Device:C",
+   "value": "10uF",
+   "params": {
+    "mpn": "HGC0805R5106K250NSLJ"
+   },
+   "footprint": "Capacitor_SMD:C_0805_2012Metric"
+  },
+  "C1": {
+   "lib_id": "Device:C",
+   "value": "10uF",
+   "params": {
+    "mpn": "HGC0805R5106K250NSLJ"
+   },
+   "footprint": "Capacitor_SMD:C_0805_2012Metric"
+  },
+  "C2": {
+   "lib_id": "Device:C",
+   "value": "100nF",
+   "params": {
+    "mpn": "AM03B104K500NT"
+   },
+   "footprint": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  "C6": {
+   "lib_id": "Device:C",
+   "value": "100nF",
+   "params": {
+    "mpn": "AM03B104K500NT"
+   },
+   "footprint": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  "C8": {
+   "lib_id": "Device:C",
+   "value": "100nF",
+   "params": {
+    "mpn": "AM03B104K500NT"
+   },
+   "footprint": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  "R16": {
+   "lib_id": "Device:R",
+   "value": "1k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "D4": {
+   "lib_id": "Device:LED",
+   "value": "3V3 green",
+   "params": {
+    "mpn": "F.0603.00025/P2-0603G1TS2-06T-002"
+   },
+   "footprint": "LED_SMD:LED_0603_1608Metric"
+  },
+  "TP5": {
+   "lib_id": "Connector:TestPoint",
+   "value": "+3V3",
+   "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+  },
+  "TP6": {
+   "lib_id": "Connector:TestPoint",
+   "value": "+5VD",
+   "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+  },
+  "TP7": {
+   "lib_id": "Connector:TestPoint",
+   "value": "GND",
+   "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+  }
+ },
+ "connections": {
+  "VBUS": [
+   "J1.VBUS*",
+   "U2.VBUS",
+   "D2.A"
+  ],
+  "+5V": [
+   "J8.Pin_1",
+   "D3.A"
+  ],
+  "+5VD": [
+   "D2.K",
+   "D3.K",
+   "J5.Pin_1",
+   "J6.Pin_1",
+   "D1.VDD",
+   "U4.VIN",
+   "U4.EN",
+   "C4.1",
+   "C8.1",
+   "TP6.1"
+  ],
+  "+3V3": [
+   "U1.3V3",
+   "R1.1",
+   "R2.1",
+   "U3.VCC",
+   "R7.1",
+   "R9.1",
+   "R10.1",
+   "J7.Pin_1",
+   "R11.1",
+   "R12.1",
+   "J8.Pin_3",
+   "R13.1",
+   "R14.1",
+   "R15.1",
+   "J10.Pin_1",
+   "U4.VOUT",
+   "C5.1",
+   "C1.1",
+   "C2.1",
+   "C6.1",
+   "R16.1",
+   "TP5.1"
+  ],
+  "EN": [
+   "U1.EN",
+   "R1.2",
+   "C3.1",
+   "SW1.1"
+  ],
+  "IO0_BOOT": [
+   "U1.IO0",
+   "R2.2",
+   "SW2.1"
+  ],
+  "CC1": [
+   "J1.CC1",
+   "R3.1"
+  ],
+  "CC2": [
+   "J1.CC2",
+   "R4.1"
+  ],
+  "USB_DP": [
+   "J1.D+*",
+   "U2.I/O1*",
+   "U1.USB_D+"
+  ],
+  "USB_DN": [
+   "J1.D-*",
+   "U2.I/O2*",
+   "U1.USB_D-"
+  ],
+  "CAN_TX": [
+   "U1.IO4",
+   "U3.D",
+   "TP3.1"
+  ],
+  "CAN_RX": [
+   "U1.IO5",
+   "U3.R",
+   "TP4.1"
+  ],
+  "CAN_RS": [
+   "U3.Rs",
+   "R5.1"
+  ],
+  "CANH": [
+   "U3.CANH",
+   "R6.1",
+   "J2.Pin_1",
+   "J3.Pin_1",
+   "TP1.1"
+  ],
+  "CANL": [
+   "U3.CANL",
+   "JP1.B",
+   "J2.Pin_2",
+   "J3.Pin_2",
+   "TP2.1"
+  ],
+  "CAN_TERM": [
+   "R6.2",
+   "JP1.A"
+  ],
+  "ESTOP_IN": [
+   "J4.Pin_1",
+   "R7.2",
+   "R8.1"
+  ],
+  "ESTOP": [
+   "U1.IO6",
+   "R8.2",
+   "C7.1"
+  ],
+  "LED_DIN": [
+   "U1.IO48",
+   "D1.DIN"
+  ],
+  "HALL1": [
+   "U1.IO1",
+   "J5.Pin_3",
+   "R9.2"
+  ],
+  "HALL2": [
+   "U1.IO2",
+   "J6.Pin_3",
+   "R10.2"
+  ],
+  "ENC_CSN": [
+   "U1.IO10",
+   "J7.Pin_3",
+   "R11.2"
+  ],
+  "ENC_CLK": [
+   "U1.IO12",
+   "J7.Pin_4"
+  ],
+  "ENC_DO": [
+   "U1.IO13",
+   "J7.Pin_5",
+   "R12.2"
+  ],
+  "I2C_SDA": [
+   "U1.IO8",
+   "J8.Pin_4",
+   "R13.2"
+  ],
+  "I2C_SCL": [
+   "U1.IO9",
+   "J8.Pin_5",
+   "R14.2"
+  ],
+  "INA_ALERT": [
+   "U1.IO7",
+   "J8.Pin_6",
+   "R15.2"
+  ],
+  "MOTOR_EN": [
+   "U1.IO14",
+   "J8.Pin_7"
+  ],
+  "TXD0": [
+   "U1.TXD0",
+   "J9.Pin_1"
+  ],
+  "RXD0": [
+   "U1.RXD0",
+   "J9.Pin_2"
+  ],
+  "LED_PWR_A": [
+   "R16.2",
+   "D4.A"
+  ],
+  "GND": [
+   "U1.GND*",
+   "C3.2",
+   "SW1.2",
+   "SW2.2",
+   "J1.GND*",
+   "J1.SHIELD",
+   "R3.2",
+   "R4.2",
+   "U2.GND",
+   "U3.GND",
+   "R5.2",
+   "J2.Pin_3",
+   "J3.Pin_3",
+   "J4.Pin_2",
+   "C7.2",
+   "D1.VSS",
+   "J5.Pin_2",
+   "J6.Pin_2",
+   "J7.Pin_2",
+   "J8.Pin_2",
+   "J8.Pin_8",
+   "J9.Pin_3",
+   "J10.Pin_14",
+   "U4.GND",
+   "C4.2",
+   "C5.2",
+   "C1.2",
+   "C2.2",
+   "C6.2",
+   "C8.2",
+   "D4.K",
+   "TP7.1"
+  ],
+  "GPIO11": [
+   "U1.IO11",
+   "J10.Pin_2"
+  ],
+  "GPIO15": [
+   "U1.IO15",
+   "J10.Pin_3"
+  ],
+  "GPIO16": [
+   "U1.IO16",
+   "J10.Pin_4"
+  ],
+  "GPIO17": [
+   "U1.IO17",
+   "J10.Pin_5"
+  ],
+  "GPIO18": [
+   "U1.IO18",
+   "J10.Pin_6"
+  ],
+  "GPIO21": [
+   "U1.IO21",
+   "J10.Pin_7"
+  ],
+  "GPIO38": [
+   "U1.IO38",
+   "J10.Pin_8"
+  ],
+  "GPIO39": [
+   "U1.IO39",
+   "J10.Pin_9"
+  ],
+  "GPIO40": [
+   "U1.IO40",
+   "J10.Pin_10"
+  ],
+  "GPIO41": [
+   "U1.IO41",
+   "J10.Pin_11"
+  ],
+  "GPIO42": [
+   "U1.IO42",
+   "J10.Pin_12"
+  ],
+  "GPIO47": [
+   "U1.IO47",
+   "J10.Pin_13"
+  ]
+ },
+ "no_connect": [
+  "U1.IO3",
+  "U1.IO45",
+  "U1.IO46",
+  "U1.IO35",
+  "U1.IO36",
+  "U1.IO37",
+  "U3.Vref",
+  "D1.DOUT",
+  "J1.SBU1",
+  "J1.SBU2"
+ ],
+ "loads": [
+  {
+   "net": "+3V3",
+   "current": "10mA",
+   "note": "ESP32-S3-WROOM-1 flash access, Table 6-6 note 3"
+  }
+ ],
+ "requirements": [
+  {
+   "type": "rail_voltage",
+   "net": "+3V3",
+   "nominal": "3.3V",
+   "tolerance": "5%"
+  },
+  {
+   "type": "max_junction_temp",
+   "component": "U4",
+   "ambient": "40degC",
+   "limit": "125degC"
+  },
+  {
+   "type": "min_capacitance",
+   "between": [
+    "+3V3",
+    "GND"
+   ],
+   "value": "1uF",
+   "basis": "nominal"
+  },
+  {
+   "type": "max_component_power",
+   "component": "R16",
+   "derating": "50%"
+  }
+ ],
+ "blocks": {
+  "mcu": [
+   "U1",
+   "R1",
+   "C3",
+   "SW1",
+   "R2",
+   "SW2",
+   "J9",
+   "J10"
+  ],
+  "usb": [
+   "J1",
+   "R3",
+   "R4",
+   "U2",
+   "D2",
+   "D3"
+  ],
+  "can": [
+   "U3",
+   "R5",
+   "R6",
+   "JP1",
+   "J2",
+   "J3",
+   "TP1",
+   "TP2",
+   "TP3",
+   "TP4"
+  ],
+  "io": [
+   "J4",
+   "R7",
+   "R8",
+   "C7",
+   "D1",
+   "J5",
+   "J6",
+   "R9",
+   "R10",
+   "J7",
+   "R11",
+   "R12"
+  ],
+  "to_board_a": [
+   "J8",
+   "R13",
+   "R14",
+   "R15"
+  ],
+  "ldo": [
+   "U4",
+   "C4",
+   "C5",
+   "C1",
+   "C2",
+   "C6",
+   "C8",
+   "R16",
+   "D4",
+   "TP5",
+   "TP6",
+   "TP7"
+  ]
+ },
+ "placement": {
+  "flow": "left_to_right",
+  "order": [
+   "mcu",
+   "usb",
+   "can",
+   "io",
+   "to_board_a",
+   "ldo"
+  ]
+ }
+}

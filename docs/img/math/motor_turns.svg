@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 432" width="680" height="432">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="37.7" y="43.9" font-size="13" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="600">J2 (R = 48): after power-up the motor reads 0.62 of a turn, so the joint can only be</text>
+<text x="37.7" y="70.0" font-size="13" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="600">at θ0 + 7.5°·(n + 0.62), a grid 7.5° apart. The coarse reading picks the point.</text>
+<polygon points="254.8,318.7 357.9,318.7 357.9,140.1 254.8,140.1" fill="#d9730d" stroke="#d9730d" stroke-width="1.2" stroke-linejoin="round" opacity="0.18"/>
+<text x="306.3" y="129.1" font-size="12" fill="#d9730d" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">window: coarse ± 3.75° (half a motor turn)</text>
+<line x1="129.1" y1="311.8" x2="129.1" y2="188.2" stroke="#6e7781" stroke-width="1.6" stroke-linecap="butt" opacity="1.0"/>
+<text x="129.1" y="180.2" font-size="12" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">n = 2</text>
+<line x1="232.1" y1="311.8" x2="232.1" y2="188.2" stroke="#6e7781" stroke-width="1.6" stroke-linecap="butt" opacity="1.0"/>
+<text x="232.1" y="180.2" font-size="12" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">n = 3</text>
+<line x1="335.2" y1="311.8" x2="335.2" y2="188.2" stroke="#2da44e" stroke-width="4" stroke-linecap="butt" opacity="1.0"/>
+<text x="335.2" y="180.2" font-size="12" fill="#2da44e" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="600">n = 4</text>
+<line x1="438.2" y1="311.8" x2="438.2" y2="188.2" stroke="#6e7781" stroke-width="1.6" stroke-linecap="butt" opacity="1.0"/>
+<text x="438.2" y="180.2" font-size="12" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">n = 5</text>
+<line x1="541.3" y1="311.8" x2="541.3" y2="188.2" stroke="#6e7781" stroke-width="1.6" stroke-linecap="butt" opacity="1.0"/>
+<text x="541.3" y="180.2" font-size="12" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">n = 6</text>
+<line x1="644.3" y1="311.8" x2="644.3" y2="188.2" stroke="#6e7781" stroke-width="1.6" stroke-linecap="butt" opacity="1.0"/>
+<text x="644.3" y="180.2" font-size="12" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">n = 7</text>
+<line x1="306.3" y1="311.8" x2="306.3" y2="153.8" stroke="#cf222e" stroke-width="2" stroke-linecap="butt" opacity="1.0" stroke-dasharray="5 4"/>
+<circle cx="306.3" cy="243.1" r="5" stroke="#cf222e" stroke-width="1.5" fill="#cf222e" opacity="1.0"/>
+<text x="297.3" y="247.1" font-size="12" fill="#cf222e" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif">coarse θc</text>
+<text x="343.2" y="270.6" font-size="12" fill="#2da44e" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="600">θ = 34.65°</text>
+<line x1="30.9" y1="325.6" x2="649.1" y2="325.6" stroke="#24292f" stroke-width="1.2" stroke-linecap="butt" opacity="1.0"/>
+<line x1="65.2" y1="332.4" x2="65.2" y2="318.7" stroke="#24292f" stroke-width="1.2" stroke-linecap="butt" opacity="1.0"/>
+<text x="65.2" y="345.6" font-size="11.5" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">15°</text>
+<line x1="133.9" y1="332.4" x2="133.9" y2="318.7" stroke="#24292f" stroke-width="1.2" stroke-linecap="butt" opacity="1.0"/>
+<text x="133.9" y="345.6" font-size="11.5" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">20°</text>
+<line x1="202.6" y1="332.4" x2="202.6" y2="318.7" stroke="#24292f" stroke-width="1.2" stroke-linecap="butt" opacity="1.0"/>
+<text x="202.6" y="345.6" font-size="11.5" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">25°</text>
+<line x1="271.3" y1="332.4" x2="271.3" y2="318.7" stroke="#24292f" stroke-width="1.2" stroke-linecap="butt" opacity="1.0"/>
+<text x="271.3" y="345.6" font-size="11.5" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">30°</text>
+<line x1="340.0" y1="332.4" x2="340.0" y2="318.7" stroke="#24292f" stroke-width="1.2" stroke-linecap="butt" opacity="1.0"/>
+<text x="340.0" y="345.6" font-size="11.5" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">35°</text>
+<line x1="408.7" y1="332.4" x2="408.7" y2="318.7" stroke="#24292f" stroke-width="1.2" stroke-linecap="butt" opacity="1.0"/>
+<text x="408.7" y="345.6" font-size="11.5" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">40°</text>
+<line x1="477.4" y1="332.4" x2="477.4" y2="318.7" stroke="#24292f" stroke-width="1.2" stroke-linecap="butt" opacity="1.0"/>
+<text x="477.4" y="345.6" font-size="11.5" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">45°</text>
+<line x1="546.1" y1="332.4" x2="546.1" y2="318.7" stroke="#24292f" stroke-width="1.2" stroke-linecap="butt" opacity="1.0"/>
+<text x="546.1" y="345.6" font-size="11.5" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">50°</text>
+<line x1="614.8" y1="332.4" x2="614.8" y2="318.7" stroke="#24292f" stroke-width="1.2" stroke-linecap="butt" opacity="1.0"/>
+<text x="614.8" y="345.6" font-size="11.5" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">55°</text>
+<text x="340.0" y="387.4" font-size="12.5" fill="#24292f" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">joint angle</text>
+</svg>

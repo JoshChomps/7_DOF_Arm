@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="68.0" y1="332.0" x2="68.0" y2="36.0" stroke="#d8dee4" stroke-width="1" stroke-linecap="butt" opacity="1.0"/>
+<text x="68.0" y="350.0" font-size="12" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">0</text>
+<line x1="199.6" y1="332.0" x2="199.6" y2="36.0" stroke="#d8dee4" stroke-width="1" stroke-linecap="butt" opacity="1.0"/>
+<text x="199.6" y="350.0" font-size="12" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">2</text>
+<line x1="331.1" y1="332.0" x2="331.1" y2="36.0" stroke="#d8dee4" stroke-width="1" stroke-linecap="butt" opacity="1.0"/>
+<text x="331.1" y="350.0" font-size="12" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">4</text>
+<line x1="462.7" y1="332.0" x2="462.7" y2="36.0" stroke="#d8dee4" stroke-width="1" stroke-linecap="butt" opacity="1.0"/>
+<text x="462.7" y="350.0" font-size="12" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">6</text>
+<line x1="594.2" y1="332.0" x2="594.2" y2="36.0" stroke="#d8dee4" stroke-width="1" stroke-linecap="butt" opacity="1.0"/>
+<text x="594.2" y="350.0" font-size="12" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">8</text>
+<line x1="68.0" y1="332.0" x2="660.0" y2="332.0" stroke="#d8dee4" stroke-width="1" stroke-linecap="butt" opacity="1.0"/>
+<text x="60.0" y="336.0" font-size="12" fill="#6e7781" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif">0</text>
+<line x1="68.0" y1="272.8" x2="660.0" y2="272.8" stroke="#d8dee4" stroke-width="1" stroke-linecap="butt" opacity="1.0"/>
+<text x="60.0" y="276.8" font-size="12" fill="#6e7781" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.5</text>
+<line x1="68.0" y1="213.6" x2="660.0" y2="213.6" stroke="#d8dee4" stroke-width="1" stroke-linecap="butt" opacity="1.0"/>
+<text x="60.0" y="217.6" font-size="12" fill="#6e7781" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif">1</text>
+<line x1="68.0" y1="154.4" x2="660.0" y2="154.4" stroke="#d8dee4" stroke-width="1" stroke-linecap="butt" opacity="1.0"/>
+<text x="60.0" y="158.4" font-size="12" fill="#6e7781" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif">1.5</text>
+<line x1="68.0" y1="95.2" x2="660.0" y2="95.2" stroke="#d8dee4" stroke-width="1" stroke-linecap="butt" opacity="1.0"/>
+<text x="60.0" y="99.2" font-size="12" fill="#6e7781" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif">2</text>
+<line x1="68.0" y1="36.0" x2="660.0" y2="36.0" stroke="#d8dee4" stroke-width="1" stroke-linecap="butt" opacity="1.0"/>
+<text x="60.0" y="40.0" font-size="12" fill="#6e7781" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif">2.5</text>
+<polygon points="68.0,332.0 660.0,332.0 660.0,36.0 68.0,36.0" fill="none" stroke="#24292f" stroke-width="1.2" stroke-linejoin="round" opacity="1.0"/>
+<text x="364" y="370" font-size="13" fill="#24292f" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">torque hung on the lever, tau (N*m at the joint)</text>
+<text transform="translate(16,184) rotate(-90)" font-size="13" fill="#24292f" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">hysteresis h (deg)</text>
+<text x="68" y="22" font-size="15" font-weight="600" fill="#24292f" font-family="Segoe UI, Helvetica, Arial, sans-serif">Push test on J2 (placeholders k = 600 N*m/rad, b = 0.5 deg)</text>
+<polyline points="68.0,272.2 660.0,69.6" fill="none" stroke="#1f6feb" stroke-width="2.2" stroke-linejoin="round" opacity="1.0"/>
+<circle cx="199.6" cy="227.9" r="5" stroke="#cf222e" stroke-width="1.5" fill="#cf222e" opacity="1.0"/>
+<circle cx="331.1" cy="181.1" r="5" stroke="#cf222e" stroke-width="1.5" fill="#cf222e" opacity="1.0"/>
+<circle cx="462.7" cy="136.9" r="5" stroke="#cf222e" stroke-width="1.5" fill="#cf222e" opacity="1.0"/>
+<circle cx="594.2" cy="92.7" r="5" stroke="#cf222e" stroke-width="1.5" fill="#cf222e" opacity="1.0"/>
+<circle cx="68.0" cy="272.2" r="5" stroke="#d9730d" stroke-width="1.5" fill="#d9730d" opacity="1.0"/>
+<text x="78.0" y="290.2" font-size="12" fill="#d9730d" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">intercept = backlash b</text>
+<text x="408.9" y="185.6" font-size="12" fill="#1f6feb" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">slope = 2 / k</text>
+<line x1="86" y1="60" x2="112" y2="60" stroke="#1f6feb" stroke-width="2.4"/>
+<text x="119" y="64" font-size="12.5" fill="#24292f" font-family="Segoe UI, Helvetica, Arial, sans-serif">fit h = 2 tau / k + b: k = 603, b = 0.51 deg</text>
+<line x1="86" y1="79" x2="112" y2="79" stroke="#cf222e" stroke-width="2.4"/>
+<text x="119" y="83" font-size="12.5" fill="#24292f" font-family="Segoe UI, Helvetica, Arial, sans-serif">measured: +tau and -tau, one point per level</text>
+</svg>

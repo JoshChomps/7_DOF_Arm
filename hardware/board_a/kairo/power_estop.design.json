@@ -1,0 +1,579 @@
+{
+ "design": "deskarm_board_a_power",
+ "policy": {
+  "margins": "stated"
+ },
+ "nets": {
+  "+24V_IN": {
+   "role": "power",
+   "voltage": "24V",
+   "tolerance": "1%"
+  },
+  "+24V": {
+   "role": "power",
+   "voltage": "24V",
+   "tolerance": "1%"
+  },
+  "PFET_G": {
+   "role": "signal"
+  },
+  "ESTOP_OUT": {
+   "role": "signal"
+  },
+  "COIL_FEED": {
+   "role": "signal"
+  },
+  "LED_COIL_A": {
+   "role": "signal"
+  },
+  "COIL_LOW": {
+   "role": "signal"
+  },
+  "COIL_G": {
+   "role": "signal"
+  },
+  "MOTOR_EN": {
+   "role": "signal"
+  },
+  "MOTOR_SW": {
+   "role": "signal"
+  },
+  "MOTOR_RAIL": {
+   "role": "signal"
+  },
+  "LED_MOT_A": {
+   "role": "signal"
+  },
+  "MOT_J12": {
+   "role": "signal"
+  },
+  "MOT_J34": {
+   "role": "signal"
+  },
+  "MOT_J567": {
+   "role": "signal"
+  },
+  "MOT_AUX": {
+   "role": "signal"
+  },
+  "+3V3": {
+   "role": "power",
+   "voltage": "3.3V",
+   "tolerance": "1.5%"
+  },
+  "I2C_SDA": {
+   "role": "signal"
+  },
+  "I2C_SCL": {
+   "role": "signal"
+  },
+  "INA_ALERT": {
+   "role": "signal"
+  },
+  "24V_LOGIC": {
+   "role": "power",
+   "voltage": "24V",
+   "tolerance": "1%"
+  },
+  "+5V": {
+   "role": "power",
+   "voltage": "5V"
+  },
+  "GND": {
+   "role": "ground"
+  }
+ },
+ "components": {
+  "J1": {
+   "lib_id": "Connector_Generic:Conn_01x02",
+   "value": "24V IN XT30 male",
+   "footprint": "Connector_AMASS:AMASS_XT30UPB-M_1x02_P5.0mm_Vertical"
+  },
+  "Q1": {
+   "lib_id": "Transistor_FET:Q_PMOS_GDS",
+   "value": "AOD4185",
+   "footprint": "Package_TO_SOT_SMD:TO-252-2"
+  },
+  "Q2": {
+   "lib_id": "Transistor_FET:Q_PMOS_GDS",
+   "value": "AOD4185",
+   "footprint": "Package_TO_SOT_SMD:TO-252-2"
+  },
+  "R1": {
+   "lib_id": "Device:R",
+   "value": "10k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "R2": {
+   "lib_id": "Device:R",
+   "value": "10k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "D1": {
+   "lib_id": "Device:D_Zener",
+   "value": "BZT52C15 15V",
+   "footprint": "Diode_SMD:D_SOD-123"
+  },
+  "D2": {
+   "lib_id": "Device:D_TVS",
+   "value": "SMCJ26CA",
+   "footprint": "Diode_SMD:D_SMC"
+  },
+  "C1": {
+   "lib_id": "Device:C",
+   "value": "100nF",
+   "params": {
+    "mpn": "AM03B104K500NT"
+   },
+   "footprint": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  "F1": {
+   "lib_id": "Device:Fuse",
+   "value": "2A logic",
+   "footprint": "Fuse:Fuse_1812_4532Metric"
+  },
+  "F2": {
+   "lib_id": "Device:Fuse",
+   "value": "1A coil",
+   "footprint": "Fuse:Fuse_1206_3216Metric"
+  },
+  "J2": {
+   "lib_id": "Connector_Generic:Conn_01x02",
+   "value": "E-STOP NC loop",
+   "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+  },
+  "J3": {
+   "lib_id": "Connector_Generic:Conn_01x02",
+   "value": "CONTACTOR COIL 24V",
+   "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+  },
+  "D3": {
+   "lib_id": "Device:D",
+   "value": "S1M flyback",
+   "footprint": "Diode_SMD:D_SMA"
+  },
+  "Q3": {
+   "lib_id": "Transistor_FET:DMN6075S",
+   "value": "DMN6075S",
+   "footprint": "Package_TO_SOT_SMD:SOT-23"
+  },
+  "R3": {
+   "lib_id": "Device:R",
+   "value": "100",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "R4": {
+   "lib_id": "Device:R",
+   "value": "100k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.1W"
+   },
+   "source": "generic 0603 1% thick film",
+   "footprint": "Resistor_SMD:R_0603_1608Metric"
+  },
+  "R5": {
+   "lib_id": "Device:R",
+   "value": "0R bypass, fitted",
+   "footprint": "Resistor_SMD:R_1206_3216Metric"
+  },
+  "R6": {
+   "lib_id": "Device:R",
+   "value": "10k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.25W"
+   },
+   "source": "generic 1206 1% thick film",
+   "footprint": "Resistor_SMD:R_1206_3216Metric"
+  },
+  "D4": {
+   "lib_id": "Device:LED",
+   "value": "COIL ON yellow",
+   "params": {
+    "mpn": "YLED0603Y"
+   },
+   "footprint": "LED_SMD:LED_0603_1608Metric"
+  },
+  "J4": {
+   "lib_id": "Connector_Generic:Conn_01x02",
+   "value": "CONTACTOR MAIN 1=line 2=load",
+   "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
+  },
+  "R7": {
+   "lib_id": "Device:R",
+   "value": "2m",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "2W"
+   },
+   "source": "2512 2 W 1% current-sense resistor",
+   "footprint": "Resistor_SMD:R_2512_6332Metric"
+  },
+  "U2": {
+   "lib_id": "Sensor_Energy:INA226",
+   "footprint": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+   "params": {
+    "i_q": "420uA"
+   },
+   "limits": {
+    "i_q": "max"
+   },
+   "source": "TI INA226 SBOS547 p.6 quiescent current max"
+  },
+  "C2": {
+   "lib_id": "Device:C",
+   "value": "100nF",
+   "params": {
+    "mpn": "AM03B104K500NT"
+   },
+   "footprint": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  "D5": {
+   "lib_id": "Device:D_TVS",
+   "value": "SMCJ26CA",
+   "footprint": "Diode_SMD:D_SMC"
+  },
+  "C3": {
+   "lib_id": "Device:C_Polarized",
+   "value": "1000uF 35V",
+   "params": {
+    "v_rating": "35V",
+    "tolerance": "20%",
+    "dielectric": "aluminium"
+   },
+   "footprint": "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+  },
+  "R8": {
+   "lib_id": "Device:R",
+   "value": "10k",
+   "params": {
+    "tolerance": "1%",
+    "p_rating": "0.25W"
+   },
+   "source": "generic 1206 1% thick film",
+   "footprint": "Resistor_SMD:R_1206_3216Metric"
+  },
+  "D6": {
+   "lib_id": "Device:LED",
+   "value": "MOTOR PWR red",
+   "params": {
+    "mpn": "XL-1608SURC-06FJ"
+   },
+   "footprint": "LED_SMD:LED_0603_1608Metric"
+  },
+  "F3": {
+   "lib_id": "Device:Fuse",
+   "value": "J1+J2 blade",
+   "footprint": "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
+  },
+  "F4": {
+   "lib_id": "Device:Fuse",
+   "value": "J3+J4 blade",
+   "footprint": "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
+  },
+  "F5": {
+   "lib_id": "Device:Fuse",
+   "value": "J5-J7 blade",
+   "footprint": "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
+  },
+  "F6": {
+   "lib_id": "Device:Fuse",
+   "value": "AUX/tool blade",
+   "footprint": "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
+  },
+  "J5": {
+   "lib_id": "Connector_Generic:Conn_01x02",
+   "value": "MOT J1+J2 XT30 female",
+   "footprint": "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+  },
+  "J6": {
+   "lib_id": "Connector_Generic:Conn_01x02",
+   "value": "MOT J3+J4 XT30 female",
+   "footprint": "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+  },
+  "J7": {
+   "lib_id": "Connector_Generic:Conn_01x02",
+   "value": "MOT J5-J7 XT30 female",
+   "footprint": "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+  },
+  "J8": {
+   "lib_id": "Connector_Generic:Conn_01x02",
+   "value": "AUX/tool XT30 female",
+   "footprint": "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
+  },
+  "J9": {
+   "lib_id": "Connector_Generic:Conn_01x08",
+   "value": "TO BOARD B",
+   "footprint": "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
+  },
+  "TP1": {
+   "lib_id": "Connector:TestPoint",
+   "value": "24V_IN",
+   "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+  },
+  "TP2": {
+   "lib_id": "Connector:TestPoint",
+   "value": "24V_PROT",
+   "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+  },
+  "TP3": {
+   "lib_id": "Connector:TestPoint",
+   "value": "MOTOR_RAIL",
+   "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+  },
+  "TP4": {
+   "lib_id": "Connector:TestPoint",
+   "value": "+5V",
+   "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+  },
+  "TP5": {
+   "lib_id": "Connector:TestPoint",
+   "value": "COIL_LOW",
+   "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+  },
+  "TP6": {
+   "lib_id": "Connector:TestPoint",
+   "value": "GND",
+   "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+  },
+  "TP7": {
+   "lib_id": "Connector:TestPoint",
+   "value": "24V_LOGIC",
+   "footprint": "TestPoint:TestPoint_Pad_D1.5mm"
+  }
+ },
+ "connections": {
+  "+24V_IN": [
+   "J1.Pin_1",
+   "Q1.D",
+   "Q2.D",
+   "TP1.1"
+  ],
+  "+24V": [
+   "Q1.S",
+   "Q2.S",
+   "R1.1",
+   "D1.K",
+   "D2.A1",
+   "C1.1",
+   "F1.1",
+   "F2.1",
+   "J4.Pin_1",
+   "TP2.1"
+  ],
+  "PFET_G": [
+   "Q1.G",
+   "Q2.G",
+   "R1.2",
+   "R2.1",
+   "D1.A"
+  ],
+  "ESTOP_OUT": [
+   "F2.2",
+   "J2.Pin_1"
+  ],
+  "COIL_FEED": [
+   "J2.Pin_2",
+   "J3.Pin_1",
+   "D3.K",
+   "R6.1"
+  ],
+  "LED_COIL_A": [
+   "R6.2",
+   "D4.A"
+  ],
+  "COIL_LOW": [
+   "J3.Pin_2",
+   "D3.A",
+   "Q3.D",
+   "R5.1",
+   "D4.K",
+   "TP5.1"
+  ],
+  "COIL_G": [
+   "Q3.G",
+   "R3.2",
+   "R4.1"
+  ],
+  "MOTOR_EN": [
+   "R3.1",
+   "J9.Pin_7"
+  ],
+  "MOTOR_SW": [
+   "J4.Pin_2",
+   "R7.1",
+   "U2.Vin+"
+  ],
+  "MOTOR_RAIL": [
+   "R7.2",
+   "U2.Vin-",
+   "U2.Vbus",
+   "D5.A1",
+   "C3.1",
+   "R8.1",
+   "F3.1",
+   "F4.1",
+   "F5.1",
+   "F6.1",
+   "TP3.1"
+  ],
+  "LED_MOT_A": [
+   "R8.2",
+   "D6.A"
+  ],
+  "MOT_J12": [
+   "F3.2",
+   "J5.Pin_1"
+  ],
+  "MOT_J34": [
+   "F4.2",
+   "J6.Pin_1"
+  ],
+  "MOT_J567": [
+   "F5.2",
+   "J7.Pin_1"
+  ],
+  "MOT_AUX": [
+   "F6.2",
+   "J8.Pin_1"
+  ],
+  "+3V3": [
+   "J9.Pin_3",
+   "U2.VS",
+   "C2.1"
+  ],
+  "I2C_SDA": [
+   "J9.Pin_4",
+   "U2.SDA"
+  ],
+  "I2C_SCL": [
+   "J9.Pin_5",
+   "U2.SCL"
+  ],
+  "INA_ALERT": [
+   "J9.Pin_6",
+   "U2.~{Alert}"
+  ],
+  "24V_LOGIC": [
+   "F1.2",
+   "TP7.1"
+  ],
+  "+5V": [
+   "J9.Pin_1",
+   "TP4.1"
+  ],
+  "GND": [
+   "J1.Pin_2",
+   "R2.2",
+   "D2.A2",
+   "C1.2",
+   "Q3.S",
+   "R5.2",
+   "R4.2",
+   "U2.GND",
+   "U2.A0",
+   "U2.A1",
+   "C2.2",
+   "D5.A2",
+   "C3.2",
+   "D6.K",
+   "J5.Pin_2",
+   "J6.Pin_2",
+   "J7.Pin_2",
+   "J8.Pin_2",
+   "J9.Pin_2",
+   "J9.Pin_8",
+   "TP6.1"
+  ]
+ },
+ "no_connect": [],
+ "loads": [
+  {
+   "net": "+3V3",
+   "current": "1mA",
+   "note": "nothing else on board A uses board B's 3.3 V"
+  }
+ ],
+ "requirements": [],
+ "blocks": {
+  "input": [
+   "J1",
+   "Q1",
+   "Q2",
+   "R1",
+   "R2",
+   "D1",
+   "D2",
+   "C1",
+   "F1",
+   "TP1",
+   "TP2",
+   "TP7"
+  ],
+  "estop": [
+   "F2",
+   "J2",
+   "J3",
+   "D3",
+   "Q3",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "D4",
+   "TP5"
+  ],
+  "motor_rail": [
+   "J4",
+   "R7",
+   "U2",
+   "C2",
+   "D5",
+   "C3",
+   "R8",
+   "D6",
+   "TP3"
+  ],
+  "branches": [
+   "F3",
+   "F4",
+   "F5",
+   "F6",
+   "J5",
+   "J6",
+   "J7",
+   "J8"
+  ],
+  "to_board_b": [
+   "J9",
+   "TP6",
+   "TP4"
+  ]
+ },
+ "placement": {
+  "flow": "left_to_right",
+  "order": [
+   "input",
+   "estop",
+   "motor_rail",
+   "branches",
+   "to_board_b"
+  ]
+ }
+}

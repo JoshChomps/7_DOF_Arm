@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 310" width="620" height="310">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="262.3" y1="230.4" x2="262.3" y2="55.6" stroke="#6e7781" stroke-width="1" stroke-linecap="butt" opacity="1.0" stroke-dasharray="4 4"/>
+<line x1="262.3" y1="230.4" x2="496.3" y2="95.3" stroke="#24292f" stroke-width="6" stroke-linecap="round" opacity="1.0"/>
+<line x1="262.3" y1="174.8" x2="329.8" y2="191.5" stroke="#2da44e" stroke-width="2.5" stroke-linecap="butt" opacity="1.0" stroke-dasharray="2 3"/>
+<line x1="262.3" y1="230.4" x2="262.3" y2="174.8" stroke="#6e7781" stroke-width="3" stroke-linecap="butt" opacity="1.0"/>
+<circle cx="262.3" cy="230.4" r="5" stroke="#24292f" stroke-width="2" fill="#ffffff" opacity="1.0"/>
+<text x="250.3" y="246.4" font-size="12" fill="#24292f" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif">S  (J2 axis)</text>
+<circle cx="262.3" cy="174.8" r="5" stroke="#24292f" stroke-width="2" fill="#ffffff" opacity="1.0"/>
+<text x="250.3" y="178.8" font-size="12" fill="#24292f" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif">A  anchor on the turntable</text>
+<circle cx="329.8" cy="191.5" r="5" stroke="#24292f" stroke-width="2" fill="#ffffff" opacity="1.0"/>
+<text x="335.8" y="211.5" font-size="12" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">B</text>
+<text x="252.8" y="202.6" font-size="13" fill="#6e7781" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-style="italic">a</text>
+<text x="304.0" y="226.9" font-size="13" fill="#6e7781" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-style="italic">b</text>
+<text x="286.2" y="157.2" font-size="12" fill="#2da44e" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">spring + cable, tension k |AB|</text>
+<text x="279.8" y="190.7" font-size="12" fill="#6e7781" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-style="italic">theta</text>
+<text x="504.3" y="95.3" font-size="12" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">upper arm</text>
+<text x="31.9" y="274.1" font-size="12.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="600">torque about S = k a b sin(theta): the same shape as gravity, m g l sin(theta)</text>
+</svg>

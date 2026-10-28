@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 574" width="680" height="574">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="24.0" y1="381.5" x2="656.0" y2="381.5" stroke="#6e7781" stroke-width="1" stroke-linecap="butt" opacity="1.0" stroke-dasharray="4 4"/>
+<line x1="192.5" y1="550.0" x2="192.5" y2="23.3" stroke="#6e7781" stroke-width="1" stroke-linecap="butt" opacity="1.0" stroke-dasharray="4 4"/>
+<line x1="192.5" y1="381.5" x2="293.1" y2="208.5" stroke="#1f6feb" stroke-width="5" stroke-linecap="round" opacity="1.0"/>
+<line x1="293.1" y1="208.5" x2="476.9" y2="255.1" stroke="#1f6feb" stroke-width="5" stroke-linecap="round" opacity="1.0"/>
+<circle cx="293.1" cy="208.5" r="6" stroke="#1f6feb" stroke-width="2.5" fill="#ffffff" opacity="1.0"/>
+<text x="281.1" y="212.5" font-size="12" fill="#1f6feb" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif">elbow one way (q4 &gt; 0)</text>
+<line x1="192.5" y1="381.5" x2="388.4" y2="422.7" stroke="#d9730d" stroke-width="5" stroke-linecap="round" opacity="1.0"/>
+<line x1="388.4" y1="422.7" x2="476.9" y2="255.1" stroke="#d9730d" stroke-width="5" stroke-linecap="round" opacity="1.0"/>
+<circle cx="388.4" cy="422.7" r="6" stroke="#d9730d" stroke-width="2.5" fill="#ffffff" opacity="1.0"/>
+<text x="400.4" y="426.7" font-size="12" fill="#d9730d" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">elbow the other way (q4 &lt; 0)</text>
+<line x1="192.5" y1="381.5" x2="476.9" y2="255.1" stroke="#6e7781" stroke-width="1.5" stroke-linecap="butt" opacity="1.0" stroke-dasharray="6 4"/>
+<circle cx="192.5" cy="381.5" r="6" stroke="#24292f" stroke-width="2.5" fill="#ffffff" opacity="1.0"/>
+<circle cx="476.9" cy="255.1" r="5" stroke="#cf222e" stroke-width="1.5" fill="#cf222e" opacity="1.0"/>
+<text x="182.5" y="399.5" font-size="12" fill="#24292f" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif">S (shoulder)</text>
+<text x="486.9" y="259.1" font-size="12" fill="#cf222e" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">W (wrist centre)</text>
+<line x1="476.9" y1="381.5" x2="476.9" y2="255.1" stroke="#6e7781" stroke-width="1.2" stroke-linecap="butt" opacity="1.0" stroke-dasharray="3 3"/>
+<text x="397.3" y="375.5" font-size="12" fill="#6e7781" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">rho (horizontal distance)</text>
+<text x="482.9" y="322.3" font-size="12" fill="#6e7781" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">h</text>
+<text x="200.5" y="54.9" font-size="12" fill="#6e7781" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">z (up): q2 is measured from here</text>
+<text x="34.5" y="518.4" font-size="12.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">L1 = 190 mm, L2 = 180 mm.   cos q4 = (rho^2 + h^2 - L1^2 - L2^2) / (2 L1 L2)</text>
+</svg>

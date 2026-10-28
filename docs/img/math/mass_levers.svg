@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 469" width="680" height="469">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="81.5" y1="157.7" x2="579.4" y2="157.7" stroke="#6e7781" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+<circle cx="81.5" cy="157.7" r="8" stroke="#24292f" stroke-width="2.5" fill="#ffffff" opacity="1.0"/>
+<text x="81.5" y="141.7" font-size="12" fill="#24292f" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif">J2 axis</text>
+<circle cx="103.5" cy="157.7" r="7.91599430430915" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="200.8" x2="83.2" y2="200.8" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="91.2" y="204.8" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.03 N m  link 2 (0.14 kg at 23 mm)</text>
+<circle cx="81.5" cy="157.7" r="9.111382822242444" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="224.8" x2="81.5" y2="224.8" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="89.5" y="228.8" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.00 N m  J2 output side (0.22 kg at 0 mm)</text>
+<circle cx="134.1" cy="157.7" r="12.641058033224363" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="248.7" x2="97.2" y2="248.7" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="105.2" y="252.7" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.30 N m  J3 motor (0.55 kg at 55 mm)</text>
+<circle cx="132.2" cy="157.7" r="13.52116913655512" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="272.6" x2="99.5" y2="272.6" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="107.5" y="276.6" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.34 N m  J3 cycloid module (0.66 kg at 53 mm)</text>
+<circle cx="203.1" cy="157.7" r="7.6328177171134195" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="296.6" x2="89.8" y2="296.6" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="97.8" y="300.6" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.16 N m  link 3 (0.13 kg at 127 mm)</text>
+<circle cx="149.4" cy="157.7" r="8.167397797731466" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="320.5" x2="87.3" y2="320.5" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="95.3" y="324.5" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.11 N m  J3 output side (0.16 kg at 71 mm)</text>
+<circle cx="330.4" cy="157.7" r="12.641058033224363" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="344.5" x2="155.7" y2="344.5" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="163.7" y="348.5" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">1.40 N m  J4 motor (0.55 kg at 260 mm)</text>
+<circle cx="266.3" cy="157.7" r="13.52116913655512" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="368.4" x2="147.1" y2="368.4" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="155.1" y="372.4" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">1.24 N m  J4 cycloid module (0.66 kg at 193 mm)</text>
+<circle cx="280.6" cy="157.7" r="7.389305184194875" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="392.3" x2="93.8" y2="392.3" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="101.8" y="396.3" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.23 N m  forearm link (0.11 kg at 208 mm)</text>
+<circle cx="263.4" cy="157.7" r="8.167397797731466" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="416.3" x2="97.1" y2="416.3" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="105.1" y="420.3" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.29 N m  J4 output side (0.16 kg at 190 mm)</text>
+<circle cx="231.8" cy="157.7" r="10.467931440499438" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="440.2" x2="108.4" y2="440.2" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="116.4" y="444.2" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.51 N m  J5 motor (0.33 kg at 157 mm)</text>
+<circle cx="290.2" cy="157.7" r="9.915706760700601" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="464.2" x2="113.5" y2="464.2" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="121.5" y="468.2" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.61 N m  J5 planetary module (0.28 kg at 218 mm)</text>
+<circle cx="363.9" cy="157.7" r="8.469277831670283" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="488.1" x2="108.6" y2="488.1" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="116.6" y="492.1" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.51 N m  link 5 (0.18 kg at 295 mm)</text>
+<circle cx="314.1" cy="157.7" r="5.534166529650331" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="512.0" x2="86.3" y2="512.0" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="94.3" y="516.0" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.09 N m  J5 output side (0.04 kg at 243 mm)</text>
+<circle cx="435.8" cy="157.7" r="10.467931440499438" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="536.0" x2="144.9" y2="536.0" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="152.9" y="540.0" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">1.20 N m  J6 motor (0.33 kg at 370 mm)</text>
+<circle cx="435.8" cy="157.7" r="9.915706760700601" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="559.9" x2="135.9" y2="559.9" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="143.9" y="563.9" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">1.03 N m  J6 planetary module (0.28 kg at 370 mm)</text>
+<circle cx="453.0" cy="157.7" r="6.921606813539572" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="583.8" x2="99.8" y2="583.8" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="107.8" y="587.8" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.35 N m  link 6 (0.09 kg at 388 mm)</text>
+<circle cx="435.8" cy="157.7" r="5.534166529650331" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="607.8" x2="88.8" y2="607.8" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="96.8" y="611.8" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.14 N m  J6 output side (0.04 kg at 370 mm)</text>
+<circle cx="476.0" cy="157.7" r="8.469277831670283" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="631.7" x2="119.3" y2="631.7" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="127.3" y="635.7" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.72 N m  J7 motor (0.18 kg at 412 mm)</text>
+<circle cx="468.3" cy="157.7" r="9.069761115562951" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="655.7" x2="127.2" y2="655.7" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="135.2" y="659.7" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.86 N m  J7 module (0.22 kg at 404 mm)</text>
+<circle cx="535.3" cy="157.7" r="6.364966567441645" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="679.6" x2="98.0" y2="679.6" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="106.0" y="683.6" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.31 N m  gripper body (0.07 kg at 474 mm)</text>
+<circle cx="571.7" cy="157.7" r="3.712039324756716" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="703.5" x2="82.3" y2="703.5" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="90.3" y="707.5" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.02 N m  gripper carrier (0.00 kg at 512 mm)</text>
+<circle cx="590.9" cy="157.7" r="4.3634515026211975" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="727.5" x2="84.5" y2="727.5" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="92.5" y="731.5" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.06 N m  gripper fingers (0.01 kg at 532 mm)</text>
+<circle cx="608.1" cy="157.7" r="3.712039324756716" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="751.4" x2="82.3" y2="751.4" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="90.3" y="755.4" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.02 N m  gripper TPU pads (0.00 kg at 550 mm)</text>
+<circle cx="546.8" cy="157.7" r="5.325510696599782" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="775.4" x2="89.5" y2="775.4" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="97.5" y="779.4" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.15 N m  gripper N20, lead screw, 693ZZ, pins, tool board (0.03 kg at 486 mm)</text>
+<circle cx="507.6" cy="157.7" r="5.325510696599782" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="799.3" x2="88.9" y2="799.3" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="96.9" y="803.3" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.14 N m  tool changer, robot side (0.03 kg at 445 mm)</text>
+<circle cx="516.2" cy="157.7" r="5.213820227570432" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="823.2" x2="88.3" y2="823.2" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="96.3" y="827.2" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.13 N m  tool changer, tool side (0.03 kg at 454 mm)</text>
+<circle cx="488.4" cy="157.7" r="5.632299375071156" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="847.2" x2="90.5" y2="847.2" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="98.5" y="851.2" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.17 N m  J7 output side (0.04 kg at 425 mm)</text>
+<circle cx="512.4" cy="157.7" r="4.592168332809066" stroke="#1f6feb" stroke-width="1" fill="#1f6feb" opacity="0.75"/>
+<line x1="81.5" y1="871.1" x2="85.0" y2="871.1" stroke="#1f6feb" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="93.0" y="875.1" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">0.07 N m  tool changer balls, magnets, M5 screws, pogo pins (0.01 kg at 450 mm)</text>
+<circle cx="579.4" cy="157.7" r="16.0" stroke="#cf222e" stroke-width="1" fill="#cf222e" opacity="0.75"/>
+<line x1="81.5" y1="895.1" x2="351.6" y2="895.1" stroke="#cf222e" stroke-width="9" stroke-linecap="butt" opacity="1.0"/>
+<text x="359.6" y="899.1" font-size="11.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">5.10 N m  payload 1 kg (1.00 kg at 520 mm)</text>
+<text x="33.6" y="52.4" font-size="13" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="600">Arm stretched out: every lump pulls on J2 with m g r. Total 16.3 N m with 1 kg</text>
+<text x="33.6" y="76.3" font-size="11.5" fill="#6e7781" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">circle area = mass; orange = actuators, blue = printed parts and tool, red = payload</text>
+</svg>

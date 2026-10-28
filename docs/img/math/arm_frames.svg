@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 570" width="680" height="570">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="24.0" y1="518.5" x2="656.0" y2="518.5" stroke="#6e7781" stroke-width="1.5" stroke-linecap="butt" opacity="1.0"/>
+<text x="504.9" y="534.5" font-size="12" fill="#6e7781" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">desk (z = 0)</text>
+<line x1="230.1" y1="518.5" x2="230.1" y2="374.9" stroke="#6e7781" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+<line x1="230.1" y1="374.9" x2="230.1" y2="244.4" stroke="#6e7781" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+<line x1="230.1" y1="244.4" x2="230.1" y2="120.8" stroke="#6e7781" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+<line x1="230.1" y1="120.8" x2="230.1" y2="72.7" stroke="#6e7781" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+<line x1="230.1" y1="72.7" x2="230.1" y2="-2.9" stroke="#6e7781" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+<circle cx="230.1" cy="374.9" r="7" stroke="#6e7781" stroke-width="2.5" fill="#ffffff" opacity="0.45"/>
+<circle cx="230.1" cy="244.4" r="7" stroke="#6e7781" stroke-width="2.5" fill="#ffffff" opacity="0.45"/>
+<circle cx="230.1" cy="120.8" r="7" stroke="#6e7781" stroke-width="2.5" fill="#ffffff" opacity="0.45"/>
+<text x="240.1" y="1.1" font-size="12" fill="#6e7781" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">zero pose q = 0 (straight up)</text>
+<line x1="230.1" y1="518.5" x2="230.1" y2="374.9" stroke="#1f6feb" stroke-width="6" stroke-linecap="round" opacity="1.0"/>
+<line x1="230.1" y1="374.9" x2="295.3" y2="261.9" stroke="#1f6feb" stroke-width="6" stroke-linecap="round" opacity="1.0"/>
+<line x1="295.3" y1="261.9" x2="419.0" y2="261.9" stroke="#1f6feb" stroke-width="6" stroke-linecap="round" opacity="1.0"/>
+<line x1="419.0" y1="261.9" x2="443.0" y2="303.6" stroke="#1f6feb" stroke-width="6" stroke-linecap="round" opacity="1.0"/>
+<line x1="443.0" y1="303.6" x2="480.8" y2="369.0" stroke="#1f6feb" stroke-width="6" stroke-linecap="round" opacity="1.0"/>
+<circle cx="230.1" cy="374.9" r="7" stroke="#1f6feb" stroke-width="2.5" fill="#ffffff" opacity="1.0"/>
+<circle cx="295.3" cy="261.9" r="7" stroke="#1f6feb" stroke-width="2.5" fill="#ffffff" opacity="1.0"/>
+<circle cx="419.0" cy="261.9" r="7" stroke="#1f6feb" stroke-width="2.5" fill="#ffffff" opacity="1.0"/>
+<text x="218.1" y="534.5" font-size="12.5" fill="#24292f" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif">base</text>
+<text x="216.1" y="378.9" font-size="12.5" fill="#24292f" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif">S  shoulder: J1 yaw, J2 pitch, J3 roll</text>
+<text x="293.3" y="247.9" font-size="12.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">E  elbow: J4</text>
+<text x="429.0" y="247.9" font-size="12.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">W  wrist centre: J5 roll, J6 pitch, J7 roll</text>
+<text x="457.0" y="307.6" font-size="12.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">flange</text>
+<text x="492.8" y="385.0" font-size="12.5" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">TCP</text>
+<circle cx="480.8" cy="369.0" r="4" stroke="#cf222e" stroke-width="1.5" fill="#cf222e" opacity="1.0"/>
+<text x="218.1" y="450.7" font-size="11.5" fill="#1f6feb" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-style="italic">d1 = 209</text>
+<text x="250.7" y="314.4" font-size="11.5" fill="#1f6feb" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-style="italic">d3 = 190</text>
+<text x="357.2" y="281.9" font-size="11.5" fill="#1f6feb" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-style="italic">d5 = 180</text>
+<text x="443.0" y="284.7" font-size="11.5" fill="#1f6feb" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-style="italic">d7 = 70</text>
+<text x="473.9" y="338.3" font-size="11.5" fill="#1f6feb" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-style="italic">tool 110</text>
+<line x1="44.6" y1="504.8" x2="99.6" y2="504.8" stroke="#6e7781" stroke-width="1.5" stroke-linecap="butt" opacity="1.0"/>
+<polygon points="99.6,504.8 93.1,502.1 93.1,507.5" fill="#6e7781"/>
+<line x1="44.6" y1="504.8" x2="44.6" y2="456.7" stroke="#6e7781" stroke-width="1.5" stroke-linecap="butt" opacity="1.0"/>
+<polygon points="44.6,456.7 41.9,463.1 47.3,463.1" fill="#6e7781"/>
+<text x="105.6" y="508.8" font-size="12" fill="#6e7781" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">x</text>
+<text x="50.6" y="458.7" font-size="12" fill="#6e7781" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif">z</text>
+<text x="30.9" y="44.5" font-size="13" fill="#24292f" text-anchor="start" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="600">Side view (lengths in mm). Blue: home pose q = [0, 30, 0, 60, 0, 60, 0] deg</text>
+</svg>

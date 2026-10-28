@@ -1,0 +1,2634 @@
+{
+"modules": {
+"J2": [
+"C2",
+[
+[
+0,
+0,
+1
+],
+[
+-1,
+0,
+0
+],
+[
+0,
+-1,
+0
+]
+],
+[
+-131.0,
+0.0,
+209.0
+]
+],
+"J3": [
+"C34",
+[
+[
+-1,
+0,
+0
+],
+[
+0,
+-1,
+0
+],
+[
+0,
+0,
+1
+]
+],
+[
+0.0,
+0.0,
+245.0
+]
+],
+"J4": [
+"C34",
+[
+[
+0,
+0,
+1
+],
+[
+1,
+0,
+0
+],
+[
+0,
+1,
+0
+]
+],
+[
+-124.5,
+0.0,
+399.0
+]
+],
+"J5": [
+"P56",
+[
+[
+1,
+0,
+0
+],
+[
+0,
+1,
+0
+],
+[
+0,
+0,
+1
+]
+],
+[
+0.0,
+0.0,
+390.0
+]
+],
+"J6": [
+"P56",
+[
+[
+0,
+0,
+1
+],
+[
+1,
+0,
+0
+],
+[
+0,
+1,
+0
+]
+],
+[
+-118.0,
+0.0,
+579.0
+]
+],
+"J7": [
+"P7",
+[
+[
+0,
+1,
+0
+],
+[
+-1,
+0,
+0
+],
+[
+0,
+0,
+1
+]
+],
+[
+0.0,
+0.0,
+598.0
+]
+]
+},
+"bodies": [
+{
+"top": "DeskArm_SA1_J1_Base_Turntable",
+"top_z": 0.0,
+"group": "J1 base",
+"part": "DeskArm_J1_Motor_Plate",
+"body": "J1_Motor_Plate",
+"volume": 44.523,
+"com": [
+0.0,
+-0.0,
+3.18
+],
+"k2": 861.9
+},
+{
+"top": "DeskArm_SA1_J1_Base_Turntable",
+"top_z": 0.0,
+"group": "J1 base",
+"part": "DeskArm_J1_Cycloid_Disc",
+"body": "J1_Cycloid_Disc",
+"volume": 22.105,
+"com": [
+1.2,
+-0.0,
+11.0
+],
+"k2": 570.7
+},
+{
+"top": "DeskArm_SA1_J1_Base_Turntable",
+"top_z": 0.0,
+"group": "J1 base",
+"part": "DeskArm_J1_Cycloid_Disc",
+"body": "J1_Cycloid_Disc",
+"volume": 22.105,
+"com": [
+-1.2,
+0.0,
+19.0
+],
+"k2": 570.7
+},
+{
+"top": "DeskArm_SA1_J1_Base_Turntable",
+"top_z": 0.0,
+"group": "J1 base",
+"part": "DeskArm_J1_Eccentric_Cam",
+"body": "J1_Cam_Lower",
+"volume": 3.343,
+"com": [
+0.89,
+0.0,
+8.81
+],
+"k2": 46.6
+},
+{
+"top": "DeskArm_SA1_J1_Base_Turntable",
+"top_z": 0.0,
+"group": "J1 base",
+"part": "DeskArm_J1_Eccentric_Cam",
+"body": "J1_Cam_Upper",
+"volume": 2.362,
+"com": [
+-1.11,
+0.01,
+18.33
+],
+"k2": 41.4
+},
+{
+"top": "DeskArm_SA1_J1_Base_Turntable",
+"top_z": 0.0,
+"group": "J1 base",
+"part": "DeskArm_J1_Base_Housing",
+"body": "J1_Base_Housing",
+"volume": 534.052,
+"com": [
+-0.0,
+0.35,
+36.39
+],
+"k2": 2522.6
+},
+{
+"top": "DeskArm_SA1_J1_Base_Turntable",
+"top_z": 0.0,
+"group": "J1 turntable",
+"part": "DeskArm_J1_Turntable_Spindle",
+"body": "J1_Turntable",
+"volume": 194.324,
+"com": [
+-0.0,
+-0.03,
+64.15
+],
+"k2": 1222.8
+},
+{
+"top": "DeskArm_SA1_J1_Base_Turntable",
+"top_z": 0.0,
+"group": "J1 turntable",
+"part": "DeskArm_J1_Turntable_Spindle",
+"body": "J1_Inner_Spacer",
+"volume": 3.189,
+"com": [
+0.0,
+-0.0,
+48.5
+],
+"k2": 457.7
+},
+{
+"top": "DeskArm_SA1_J1_Base_Turntable",
+"top_z": 0.0,
+"group": "J1 turntable",
+"part": "DeskArm_J1_Output_Pin_Carrier",
+"body": "J1_Output_Pin_Carrier",
+"volume": 39.784,
+"com": [
+0.0,
+0.0,
+29.69
+],
+"k2": 474.1
+},
+{
+"top": "DA_L_StandLeft",
+"top_z": 0.0,
+"group": "",
+"part": "DA_L_StandLeft",
+"body": "Left stand",
+"volume": 170.427,
+"com": [
+-79.14,
+0.12,
+142.17
+],
+"k2": 4683.3
+},
+{
+"top": "DA_L_TowerRight",
+"top_z": 0.0,
+"group": "",
+"part": "DA_L_TowerRight",
+"body": "Right tower",
+"volume": 93.725,
+"com": [
+65.88,
+-0.0,
+138.6
+],
+"k2": 2726.9
+},
+{
+"top": "DA_L_CBPulley",
+"top_z": 0.0,
+"group": "",
+"part": "DA_L_CBPulley",
+"body": "Counterbalance pulley",
+"volume": 2.253,
+"com": [
+70.0,
+0.0,
+279.0
+],
+"k2": 99.3
+},
+{
+"top": "DA_L_Link2",
+"top_z": 0.0,
+"group": "",
+"part": "DA_L_Link2",
+"body": "Link 2",
+"volume": 142.616,
+"com": [
+-32.73,
+2.08,
+232.23
+],
+"k2": 2423.8
+},
+{
+"top": "DA_L_Link3",
+"top_z": 0.0,
+"group": "",
+"part": "DA_L_Link3",
+"body": "Link 3",
+"volume": 131.594,
+"com": [
+-50.55,
+0.05,
+335.5
+],
+"k2": 2050.7
+},
+{
+"top": "DA_L_Forearm",
+"top_z": 0.0,
+"group": "",
+"part": "DA_L_Forearm",
+"body": "Forearm",
+"volume": 100.127,
+"com": [
+-34.13,
+0.06,
+416.88
+],
+"k2": 1436.0
+},
+{
+"top": "DA_L_Link5",
+"top_z": 0.0,
+"group": "",
+"part": "DA_L_Link5",
+"body": "Link 5",
+"volume": 145.824,
+"com": [
+-23.83,
+-0.0,
+503.7
+],
+"k2": 2303.7
+},
+{
+"top": "DA_L_Link6",
+"top_z": 0.0,
+"group": "",
+"part": "DA_L_Link6",
+"body": "Link 6",
+"volume": 77.899,
+"com": [
+-24.02,
+0.05,
+597.01
+],
+"k2": 1105.4
+},
+{
+"top": "DA_T_Receiver",
+"top_z": 0.0,
+"group": "",
+"part": "DA_T_Receiver",
+"body": "Receiver",
+"volume": 15.472,
+"com": [
+0.0,
+0.09,
+653.57
+],
+"k2": 234.7
+},
+{
+"top": "DA_T_ToolPlate",
+"top_z": 0.0,
+"group": "",
+"part": "DA_T_ToolPlate",
+"body": "Tool plate",
+"volume": 13.237,
+"com": [
+0.0,
+0.0,
+663.08
+],
+"k2": 227.6
+},
+{
+"top": "DA_G_Body",
+"top_z": 0.0,
+"group": "",
+"part": "DA_G_Body",
+"body": "Gripper body",
+"volume": 51.901,
+"com": [
+0.0,
+-1.28,
+682.9
+],
+"k2": 657.8
+},
+{
+"top": "DA_G_Fingers",
+"top_z": 0.0,
+"group": "",
+"part": "DA_G_Fingers",
+"body": "Finger 90",
+"volume": 3.039,
+"com": [
+0.0,
+26.03,
+740.72
+],
+"k2": 199.4
+},
+{
+"top": "DA_G_Fingers",
+"top_z": 0.0,
+"group": "",
+"part": "DA_G_Fingers",
+"body": "Finger 210",
+"volume": 3.036,
+"com": [
+-22.55,
+-13.02,
+740.7
+],
+"k2": 199.0
+},
+{
+"top": "DA_G_Fingers",
+"top_z": 0.0,
+"group": "",
+"part": "DA_G_Fingers",
+"body": "Finger 330",
+"volume": 3.038,
+"com": [
+22.55,
+-13.02,
+740.72
+],
+"k2": 199.3
+},
+{
+"top": "DA_G_Pads",
+"top_z": 0.0,
+"group": "",
+"part": "DA_G_Pads",
+"body": "Pad 90 (TPU)",
+"volume": 0.3,
+"com": [
+0.0,
+21.75,
+759.13
+],
+"k2": 36.9
+},
+{
+"top": "DA_G_Pads",
+"top_z": 0.0,
+"group": "",
+"part": "DA_G_Pads",
+"body": "Pad 210 (TPU)",
+"volume": 0.3,
+"com": [
+-18.84,
+-10.88,
+759.13
+],
+"k2": 36.9
+},
+{
+"top": "DA_G_Pads",
+"top_z": 0.0,
+"group": "",
+"part": "DA_G_Pads",
+"body": "Pad 330 (TPU)",
+"volume": 0.3,
+"com": [
+18.84,
+-10.88,
+759.13
+],
+"k2": 36.9
+},
+{
+"top": "DA_G_Carrier",
+"top_z": 0.0,
+"group": "",
+"part": "DA_G_Carrier",
+"body": "Carrier",
+"volume": 2.456,
+"com": [
+-0.12,
+-0.03,
+721.31
+],
+"k2": 78.8
+},
+{
+"top": "DA_P_Gripper",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_Gripper",
+"body": "N20 gearmotor + encoder",
+"volume": 4.08,
+"com": [
+0.0,
+0.0,
+684.0
+],
+"k2": 77.8
+},
+{
+"top": "DA_P_Gripper",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_Gripper",
+"body": "M3 lead screw (steel)",
+"volume": 0.212,
+"com": [
+-0.0,
+0.0,
+716.0
+],
+"k2": 50.7
+},
+{
+"top": "DA_P_Gripper",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_Gripper",
+"body": "Spacer (printed)",
+"volume": 0.035,
+"com": [
+0.0,
+0.0,
+702.5
+],
+"k2": 9.9
+},
+{
+"top": "DA_P_Gripper",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_Gripper",
+"body": "Jam nut (steel)",
+"volume": 0.059,
+"com": [
+0.0,
+0.0,
+702.5
+],
+"k2": 4.4
+},
+{
+"top": "DA_P_Gripper",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_Gripper",
+"body": "693ZZ (steel)",
+"volume": 0.173,
+"com": [
+0.0,
+-0.0,
+706.0
+],
+"k2": 7.0
+},
+{
+"top": "DA_P_Gripper",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_Gripper",
+"body": "Jam nut 2 (steel)",
+"volume": 0.059,
+"com": [
+0.0,
+0.0,
+709.2
+],
+"k2": 4.4
+},
+{
+"top": "DA_P_Gripper",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_Gripper",
+"body": "Drive nut (steel)",
+"volume": 0.04,
+"com": [
+0.0,
+-0.0,
+721.16
+],
+"k2": 3.6
+},
+{
+"top": "DA_P_Gripper",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_Gripper",
+"body": "Pin 3 x 12 (steel)",
+"volume": 0.085,
+"com": [
+0.0,
+29.0,
+722.0
+],
+"k2": 8.7
+},
+{
+"top": "DA_P_Gripper",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_Gripper",
+"body": "Pin 3 x 12 (steel) (1)",
+"volume": 0.085,
+"com": [
+0.0,
+15.0,
+721.16
+],
+"k2": 8.7
+},
+{
+"top": "DA_P_Gripper",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_Gripper",
+"body": "Pin 3 x 12 (steel) (2)",
+"volume": 0.085,
+"com": [
+-25.11,
+-14.5,
+722.0
+],
+"k2": 8.7
+},
+{
+"top": "DA_P_Gripper",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_Gripper",
+"body": "Pin 3 x 12 (steel) (3)",
+"volume": 0.085,
+"com": [
+25.11,
+-14.5,
+722.0
+],
+"k2": 8.7
+},
+{
+"top": "DA_P_Gripper",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_Gripper",
+"body": "Pin 3 x 12 (steel) (4)",
+"volume": 0.085,
+"com": [
+-12.99,
+-7.5,
+721.16
+],
+"k2": 8.7
+},
+{
+"top": "DA_P_Gripper",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_Gripper",
+"body": "Pin 3 x 12 (steel) (5)",
+"volume": 0.085,
+"com": [
+12.99,
+-7.5,
+721.16
+],
+"k2": 8.7
+},
+{
+"top": "DA_P_Gripper",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_Gripper",
+"body": "Tool board",
+"volume": 9.974,
+"com": [
+-0.0,
+-28.5,
+692.0
+],
+"k2": 161.9
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_C2_Cover",
+"body": "Cover",
+"volume": 99.362,
+"com": [
+-129.38,
+-0.0,
+209.0
+],
+"k2": 1200.8
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_C2_Housing",
+"body": "Housing",
+"volume": 395.638,
+"com": [
+-87.92,
+0.01,
+209.26
+],
+"k2": 1832.5
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_C2_Plate",
+"body": "Motor plate (Al 3 mm)",
+"volume": 42.562,
+"com": [
+-154.5,
+0.0,
+188.75
+],
+"k2": 2092.5
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_C2_Shaft",
+"body": "Input shaft",
+"volume": 10.837,
+"com": [
+-130.6,
+0.0,
+209.02
+],
+"k2": 333.7
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_C2_Pulley40",
+"body": "Pulley 40T",
+"volume": 17.374,
+"com": [
+-166.34,
+-0.0,
+209.06
+],
+"k2": 158.2
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_C2_Spacers",
+"body": "Inner spacer",
+"volume": 5.102,
+"com": [
+-78.5,
+0.0,
+209.0
+],
+"k2": 466.4
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_C2_Disc",
+"body": "Disc",
+"volume": 39.268,
+"com": [
+-119.0,
+-1.6,
+209.01
+],
+"k2": 845.5
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_C2_Discb",
+"body": "Disc",
+"volume": 39.3,
+"com": [
+-111.0,
+1.6,
+209.0
+],
+"k2": 845.8
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_P_N23_76",
+"body": "Motor",
+"volume": 241.753,
+"com": [
+-115.0,
+0.0,
+113.5
+],
+"k2": 674.3
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_P_N23_76",
+"body": "MKS driver",
+"volume": 63.619,
+"com": [
+-67.0,
+0.0,
+113.5
+],
+"k2": 375.7
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_P_N23_76",
+"body": "Pilot",
+"volume": 1.824,
+"com": [
+-153.8,
+-0.0,
+113.5
+],
+"k2": 121.1
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_P_N23_76",
+"body": "Shaft",
+"volume": 0.956,
+"com": [
+-164.25,
+0.0,
+113.58
+],
+"k2": 26.3
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_P_Pulley_HTD20_8",
+"body": "20T pulley (bought)",
+"volume": 4.73,
+"com": [
+-165.5,
+-0.0,
+113.5
+],
+"k2": 61.8
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_P_Belt_C2",
+"body": "Belt",
+"volume": 12.462,
+"com": [
+-166.5,
+0.0,
+168.24
+],
+"k2": 1234.3
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 fixed",
+"part": "DA_C2_Enccap",
+"body": "Encoder cap",
+"volume": 11.606,
+"com": [
+-177.68,
+-0.0,
+211.33
+],
+"k2": 380.0
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 out",
+"part": "DA_C2_Carrier",
+"body": "Carrier",
+"volume": 44.498,
+"com": [
+-100.14,
+-0.0,
+209.0
+],
+"k2": 504.3
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 out",
+"part": "DA_C2_Flange",
+"body": "Output flange",
+"volume": 124.936,
+"com": [
+-64.85,
+0.03,
+209.02
+],
+"k2": 939.2
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 out",
+"part": "DA_P_Encoder_C2",
+"body": "Encoder rod 6 (steel)",
+"volume": 3.775,
+"com": [
+-115.75,
+0.0,
+209.0
+],
+"k2": 993.1
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 out",
+"part": "DA_P_Encoder_C2",
+"body": "MR126",
+"volume": 0.339,
+"com": [
+-179.0,
+-0.0,
+209.0
+],
+"k2": 15.9
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 out",
+"part": "DA_P_Encoder_C2",
+"body": "Magnet 6 x 2.5 diametric",
+"volume": 0.071,
+"com": [
+-183.75,
+-0.0,
+209.0
+],
+"k2": 3.3
+},
+{
+"top": "DA_SA_C2",
+"top_z": 209.0,
+"group": "C2 out",
+"part": "DA_P_Encoder_C2",
+"body": "Board C (44 x 34, parts both sides)",
+"volume": 8.885,
+"com": [
+-189.0,
+0.0,
+209.0
+],
+"k2": 171.9
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_C34_Cover",
+"body": "Cover",
+"volume": 54.566,
+"com": [
+-0.0,
+0.0,
+246.84
+],
+"k2": 686.9
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_C34_Housing",
+"body": "Housing",
+"volume": 151.42,
+"com": [
+0.01,
+0.49,
+281.69
+],
+"k2": 1200.0
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_C34_Plate",
+"body": "Motor plate (Al 3 mm)",
+"volume": 24.345,
+"com": [
+0.0,
+-18.38,
+229.5
+],
+"k2": 1240.5
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_C34_Shaft",
+"body": "Input shaft",
+"volume": 9.278,
+"com": [
+0.0,
+0.02,
+250.74
+],
+"k2": 235.3
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_C34_Pulley40",
+"body": "Pulley 40T",
+"volume": 13.121,
+"com": [
+-0.0,
+0.08,
+220.17
+],
+"k2": 150.3
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_C34_Spacers",
+"body": "Inner spacer",
+"volume": 3.189,
+"com": [
+-0.0,
+0.0,
+294.5
+],
+"k2": 457.7
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_C34_Spacers",
+"body": "Outer spacer",
+"volume": 3.856,
+"com": [
+0.0,
+0.0,
+294.5
+],
+"k2": 666.6
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_C34_Spacers",
+"body": "Retainer",
+"volume": 6.731,
+"com": [
+0.26,
+0.19,
+307.5
+],
+"k2": 984.7
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_C34_Disc",
+"body": "Disc",
+"volume": 16.645,
+"com": [
+-1.1,
+0.0,
+257.0
+],
+"k2": 471.7
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_C34_Discb",
+"body": "Disc",
+"volume": 16.667,
+"com": [
+1.08,
+-0.02,
+265.0
+],
+"k2": 471.5
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_P_N17_60",
+"body": "Motor",
+"volume": 107.357,
+"com": [
+0.0,
+-69.8,
+261.0
+],
+"k2": 398.8
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_P_N17_60",
+"body": "MKS driver",
+"volume": 28.629,
+"com": [
+0.0,
+-69.8,
+299.0
+],
+"k2": 213.0
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_P_N17_60",
+"body": "Pilot",
+"volume": 0.76,
+"com": [
+-0.0,
+-69.8,
+230.0
+],
+"k2": 40.6
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_P_N17_60",
+"body": "Shaft",
+"volume": 0.417,
+"com": [
+0.0,
+-69.72,
+218.13
+],
+"k2": 29.1
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_P_Pulley_HTD20_5",
+"body": "20T pulley (bought)",
+"volume": 4.151,
+"com": [
+-0.0,
+-69.8,
+221.0
+],
+"k2": 47.9
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_P_Belt_C34",
+"body": "Belt",
+"volume": 7.052,
+"com": [
+-0.0,
+-28.03,
+220.0
+],
+"k2": 851.0
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 fixed",
+"part": "DA_C34_Enccap",
+"body": "Encoder cap",
+"volume": 11.194,
+"com": [
+-0.0,
+2.04,
+210.61
+],
+"k2": 363.2
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 out",
+"part": "DA_C34_Carrier",
+"body": "Carrier",
+"volume": 27.439,
+"com": [
+-0.0,
+-0.0,
+276.06
+],
+"k2": 357.6
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 out",
+"part": "DA_C34_Flange",
+"body": "Output flange",
+"volume": 79.337,
+"com": [
+0.03,
+0.02,
+305.31
+],
+"k2": 543.7
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 out",
+"part": "DA_P_Encoder_C34",
+"body": "Encoder rod 6 (steel)",
+"volume": 3.28,
+"com": [
+0.0,
+0.0,
+264.5
+],
+"k2": 750.6
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 out",
+"part": "DA_P_Encoder_C34",
+"body": "MR126",
+"volume": 0.339,
+"com": [
+-0.0,
+0.0,
+210.0
+],
+"k2": 15.9
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 out",
+"part": "DA_P_Encoder_C34",
+"body": "Magnet 6 x 2.5 diametric",
+"volume": 0.071,
+"com": [
+-0.0,
+0.0,
+205.25
+],
+"k2": 3.3
+},
+{
+"top": "DA_SA_C34",
+"top_z": 245.0,
+"group": "C34 out",
+"part": "DA_P_Encoder_C34",
+"body": "Board C (44 x 34, parts both sides)",
+"volume": 8.885,
+"com": [
+0.0,
+0.0,
+200.0
+],
+"k2": 171.9
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_C34_Cover",
+"body": "Cover",
+"volume": 54.566,
+"com": [
+-122.66,
+0.0,
+399.0
+],
+"k2": 686.9
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_C34_Housing",
+"body": "Housing",
+"volume": 151.42,
+"com": [
+-87.81,
+-0.01,
+398.51
+],
+"k2": 1200.0
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_C34_Plate",
+"body": "Motor plate (Al 3 mm)",
+"volume": 24.345,
+"com": [
+-140.0,
+-0.0,
+417.38
+],
+"k2": 1240.5
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_C34_Shaft",
+"body": "Input shaft",
+"volume": 9.278,
+"com": [
+-118.76,
+-0.0,
+398.98
+],
+"k2": 235.3
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_C34_Pulley40",
+"body": "Pulley 40T",
+"volume": 13.121,
+"com": [
+-149.33,
+0.0,
+398.92
+],
+"k2": 150.3
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_C34_Spacers",
+"body": "Inner spacer",
+"volume": 3.189,
+"com": [
+-75.0,
+0.0,
+399.0
+],
+"k2": 457.7
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_C34_Spacers",
+"body": "Outer spacer",
+"volume": 3.856,
+"com": [
+-75.0,
+-0.0,
+399.0
+],
+"k2": 666.6
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_C34_Spacers",
+"body": "Retainer",
+"volume": 6.731,
+"com": [
+-62.0,
+-0.26,
+398.81
+],
+"k2": 984.7
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_C34_Disc",
+"body": "Disc",
+"volume": 16.645,
+"com": [
+-112.5,
+1.1,
+399.0
+],
+"k2": 471.7
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_C34_Discb",
+"body": "Disc",
+"volume": 16.667,
+"com": [
+-104.5,
+-1.08,
+399.02
+],
+"k2": 471.5
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_P_N17_60",
+"body": "Motor",
+"volume": 107.357,
+"com": [
+-108.5,
+0.0,
+468.8
+],
+"k2": 398.8
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_P_N17_60",
+"body": "MKS driver",
+"volume": 28.629,
+"com": [
+-70.5,
+-0.0,
+468.8
+],
+"k2": 213.0
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_P_N17_60",
+"body": "Pilot",
+"volume": 0.76,
+"com": [
+-139.5,
+0.0,
+468.8
+],
+"k2": 40.6
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_P_N17_60",
+"body": "Shaft",
+"volume": 0.417,
+"com": [
+-151.37,
+-0.0,
+468.72
+],
+"k2": 29.1
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_P_Pulley_HTD20_5",
+"body": "20T pulley (bought)",
+"volume": 4.151,
+"com": [
+-148.5,
+0.0,
+468.8
+],
+"k2": 47.9
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_P_Belt_C34",
+"body": "Belt",
+"volume": 7.052,
+"com": [
+-149.5,
+0.0,
+427.03
+],
+"k2": 851.0
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 fixed",
+"part": "DA_C34_Enccap",
+"body": "Encoder cap",
+"volume": 11.194,
+"com": [
+-158.89,
+0.0,
+396.96
+],
+"k2": 363.2
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 out",
+"part": "DA_C34_Carrier",
+"body": "Carrier",
+"volume": 27.439,
+"com": [
+-93.44,
+0.0,
+399.0
+],
+"k2": 357.6
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 out",
+"part": "DA_C34_Flange",
+"body": "Output flange",
+"volume": 79.337,
+"com": [
+-64.19,
+-0.03,
+398.98
+],
+"k2": 543.7
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 out",
+"part": "DA_P_Encoder_C34",
+"body": "Encoder rod 6 (steel)",
+"volume": 3.28,
+"com": [
+-105.0,
+-0.0,
+399.0
+],
+"k2": 750.6
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 out",
+"part": "DA_P_Encoder_C34",
+"body": "MR126",
+"volume": 0.339,
+"com": [
+-159.5,
+0.0,
+399.0
+],
+"k2": 15.9
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 out",
+"part": "DA_P_Encoder_C34",
+"body": "Magnet 6 x 2.5 diametric",
+"volume": 0.071,
+"com": [
+-164.25,
+0.0,
+399.0
+],
+"k2": 3.3
+},
+{
+"top": "DA_SA_C34",
+"top_z": 399.0,
+"group": "C34 out",
+"part": "DA_P_Encoder_C34",
+"body": "Board C (44 x 34, parts both sides)",
+"volume": 8.885,
+"com": [
+-169.5,
+-0.0,
+399.0
+],
+"k2": 171.9
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P56_Base",
+"body": "Base",
+"volume": 18.482,
+"com": [
+0.0,
+0.0,
+392.53
+],
+"k2": 460.2
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P56_Housing",
+"body": "Housing",
+"volume": 152.321,
+"com": [
+-0.01,
+-0.01,
+431.3
+],
+"k2": 894.8
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P56_Sun1",
+"body": "Sun 1 (14T)",
+"volume": 1.516,
+"com": [
+0.0,
+0.01,
+402.01
+],
+"k2": 27.2
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P56_Carrier1",
+"body": "Carrier 1 + sun 2",
+"volume": 9.711,
+"com": [
+0.0,
+0.0,
+414.27
+],
+"k2": 170.8
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P56_Spacer",
+"body": "Inner spacer",
+"volume": 0.862,
+"com": [
+0.0,
+0.0,
+448.5
+],
+"k2": 168.3
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P56_Planet1",
+"body": "Planet 1 (19T)",
+"volume": 2.456,
+"com": [
+16.5,
+-0.0,
+402.0
+],
+"k2": 45.7
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P56_Planet2",
+"body": "Planet 2 (19T)",
+"volume": 3.801,
+"com": [
+16.5,
+-0.0,
+423.0
+],
+"k2": 54.3
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P56_Planet1",
+"body": "Planet 1 (19T)",
+"volume": 2.456,
+"com": [
+-8.25,
+14.29,
+402.0
+],
+"k2": 45.7
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P56_Planet2",
+"body": "Planet 2 (19T)",
+"volume": 3.801,
+"com": [
+-8.25,
+14.29,
+423.0
+],
+"k2": 54.3
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P56_Planet1",
+"body": "Planet 1 (19T)",
+"volume": 2.456,
+"com": [
+-8.25,
+-14.29,
+402.0
+],
+"k2": 45.7
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P56_Planet2",
+"body": "Planet 2 (19T)",
+"volume": 3.801,
+"com": [
+-8.25,
+-14.29,
+423.0
+],
+"k2": 54.3
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P_N17_40",
+"body": "Motor",
+"volume": 71.572,
+"com": [
+0.0,
+0.0,
+370.0
+],
+"k2": 287.7
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P_N17_40",
+"body": "MKS driver",
+"volume": 28.629,
+"com": [
+0.0,
+0.0,
+342.0
+],
+"k2": 213.0
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P_N17_40",
+"body": "Pilot",
+"volume": 0.76,
+"com": [
+-0.0,
+0.0,
+391.0
+],
+"k2": 40.6
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 fixed",
+"part": "DA_P_N17_40",
+"body": "Shaft",
+"volume": 0.417,
+"com": [
+0.0,
+-0.08,
+402.87
+],
+"k2": 29.1
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 out",
+"part": "DA_P56_Carrier2",
+"body": "Carrier 2 (output)",
+"volume": 21.387,
+"com": [
+0.0,
+0.0,
+442.57
+],
+"k2": 171.4
+},
+{
+"top": "DA_SA_P56",
+"top_z": 390.0,
+"group": "P56 out",
+"part": "DA_P56_Flange",
+"body": "Output flange",
+"volume": 19.068,
+"com": [
+-0.12,
+-0.07,
+462.76
+],
+"k2": 339.0
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P56_Base",
+"body": "Base",
+"volume": 18.482,
+"com": [
+-115.47,
+0.0,
+579.0
+],
+"k2": 460.2
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P56_Housing",
+"body": "Housing",
+"volume": 152.321,
+"com": [
+-76.7,
+-0.01,
+578.99
+],
+"k2": 894.8
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P56_Sun1",
+"body": "Sun 1 (14T)",
+"volume": 1.516,
+"com": [
+-105.99,
+0.0,
+579.01
+],
+"k2": 27.2
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P56_Carrier1",
+"body": "Carrier 1 + sun 2",
+"volume": 9.711,
+"com": [
+-93.73,
+0.0,
+579.0
+],
+"k2": 170.8
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P56_Spacer",
+"body": "Inner spacer",
+"volume": 0.862,
+"com": [
+-59.5,
+0.0,
+579.0
+],
+"k2": 168.3
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P56_Planet1",
+"body": "Planet 1 (19T)",
+"volume": 2.456,
+"com": [
+-106.0,
+16.5,
+579.0
+],
+"k2": 45.7
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P56_Planet2",
+"body": "Planet 2 (19T)",
+"volume": 3.801,
+"com": [
+-85.0,
+16.5,
+579.0
+],
+"k2": 54.3
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P56_Planet1",
+"body": "Planet 1 (19T)",
+"volume": 2.456,
+"com": [
+-106.0,
+-8.25,
+593.29
+],
+"k2": 45.7
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P56_Planet2",
+"body": "Planet 2 (19T)",
+"volume": 3.801,
+"com": [
+-85.0,
+-8.25,
+593.29
+],
+"k2": 54.3
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P56_Planet1",
+"body": "Planet 1 (19T)",
+"volume": 2.456,
+"com": [
+-106.0,
+-8.25,
+564.71
+],
+"k2": 45.7
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P56_Planet2",
+"body": "Planet 2 (19T)",
+"volume": 3.801,
+"com": [
+-85.0,
+-8.25,
+564.71
+],
+"k2": 54.3
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P_N17_40",
+"body": "Motor",
+"volume": 71.572,
+"com": [
+-138.0,
+0.0,
+579.0
+],
+"k2": 287.7
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P_N17_40",
+"body": "MKS driver",
+"volume": 28.629,
+"com": [
+-166.0,
+0.0,
+579.0
+],
+"k2": 213.0
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P_N17_40",
+"body": "Pilot",
+"volume": 0.76,
+"com": [
+-117.0,
+-0.0,
+579.0
+],
+"k2": 40.6
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 fixed",
+"part": "DA_P_N17_40",
+"body": "Shaft",
+"volume": 0.417,
+"com": [
+-105.13,
+0.0,
+578.92
+],
+"k2": 29.1
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 out",
+"part": "DA_P56_Carrier2",
+"body": "Carrier 2 (output)",
+"volume": 21.387,
+"com": [
+-65.43,
+0.0,
+579.0
+],
+"k2": 171.4
+},
+{
+"top": "DA_SA_P56",
+"top_z": 579.0,
+"group": "P56 out",
+"part": "DA_P56_Flange",
+"body": "Output flange",
+"volume": 19.068,
+"com": [
+-45.24,
+-0.12,
+578.93
+],
+"k2": 339.0
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P7_Base",
+"body": "Base",
+"volume": 40.723,
+"com": [
+27.52,
+0.0,
+601.97
+],
+"k2": 922.4
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P7_Housing",
+"body": "Housing",
+"volume": 65.74,
+"com": [
+-0.49,
+0.0,
+624.19
+],
+"k2": 599.6
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P7_Sunshaft",
+"body": "Sun shaft (24T)",
+"volume": 4.501,
+"com": [
+-0.03,
+-0.0,
+605.83
+],
+"k2": 96.4
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P7_Pulley80",
+"body": "Pulley 80T",
+"volume": 16.39,
+"com": [
+0.01,
+-0.0,
+592.56
+],
+"k2": 249.9
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P7_Spacer",
+"body": "Inner spacer",
+"volume": 0.575,
+"com": [
+0.0,
+-0.0,
+630.5
+],
+"k2": 167.1
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P7_Planet",
+"body": "Planet (12T)",
+"volume": 0.942,
+"com": [
+-0.0,
+-18.0,
+611.25
+],
+"k2": 18.5
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P7_Planet",
+"body": "Planet (12T)",
+"volume": 0.942,
+"com": [
+15.59,
+9.0,
+611.25
+],
+"k2": 18.5
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P7_Planet",
+"body": "Planet (12T)",
+"volume": 0.942,
+"com": [
+-15.59,
+9.0,
+611.25
+],
+"k2": 18.5
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P_N17_20",
+"body": "Motor",
+"volume": 35.786,
+"com": [
+58.45,
+0.0,
+616.0
+],
+"k2": 221.0
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P_N17_20",
+"body": "MKS driver",
+"volume": 28.629,
+"com": [
+58.45,
+0.0,
+634.0
+],
+"k2": 213.0
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P_N17_20",
+"body": "Pilot",
+"volume": 0.76,
+"com": [
+58.45,
+-0.0,
+605.0
+],
+"k2": 40.6
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P_N17_20",
+"body": "Shaft",
+"volume": 0.338,
+"com": [
+58.35,
+0.0,
+595.07
+],
+"k2": 20.2
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P_Pulley_GT16_5",
+"body": "16T pulley (bought)",
+"volume": 0.585,
+"com": [
+58.45,
+-0.0,
+592.5
+],
+"k2": 18.2
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P_Belt_P7",
+"body": "Belt",
+"volume": 2.148,
+"com": [
+15.22,
+-0.0,
+592.5
+],
+"k2": 762.5
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P_SlipRing",
+"body": "Slip ring body (stator)",
+"volume": 2.7,
+"com": [
+0.0,
+0.0,
+571.0
+],
+"k2": 39.9
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P_SlipRing",
+"body": "Slip ring rotor nose",
+"volume": 0.154,
+"com": [
+0.0,
+-0.0,
+584.0
+],
+"k2": 5.0
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 fixed",
+"part": "DA_P_SlipRing",
+"body": "M3 x 4 grub screw (steel)",
+"volume": 0.026,
+"com": [
+0.0,
+8.15,
+571.0
+],
+"k2": 1.5
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 out",
+"part": "DA_P7_Carrier",
+"body": "Carrier",
+"volume": 15.031,
+"com": [
+-0.0,
+-0.0,
+625.68
+],
+"k2": 156.7
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 out",
+"part": "DA_P7_Flange",
+"body": "Tool flange",
+"volume": 20.117,
+"com": [
+-0.12,
+0.07,
+644.69
+],
+"k2": 331.5
+},
+{
+"top": "DA_SA_P7",
+"top_z": 598.0,
+"group": "P7 out",
+"part": "DA_P7_Sliptube",
+"body": "Slip ring tube",
+"volume": 4.154,
+"com": [
+0.0,
+0.0,
+617.14
+],
+"k2": 247.5
+},
+{
+"top": "DA_B_Board",
+"top_z": 0.0,
+"group": "",
+"part": "DA_B_Board",
+"body": "Base board (plywood)",
+"volume": 4437.787,
+"com": [
+-0.0,
+0.0,
+-9.0
+],
+"k2": 28177.5
+},
+{
+"top": "DA_B_Board",
+"top_z": 0.0,
+"group": "",
+"part": "DA_B_Board",
+"body": "Foot",
+"volume": 112.0,
+"com": [
+-190.0,
+-190.0,
+-53.0
+],
+"k2": 450.0
+},
+{
+"top": "DA_B_Board",
+"top_z": 0.0,
+"group": "",
+"part": "DA_B_Board",
+"body": "Foot (1)",
+"volume": 112.0,
+"com": [
+-190.0,
+190.0,
+-53.0
+],
+"k2": 450.0
+},
+{
+"top": "DA_B_Board",
+"top_z": 0.0,
+"group": "",
+"part": "DA_B_Board",
+"body": "Foot (2)",
+"volume": 112.0,
+"com": [
+190.0,
+-190.0,
+-53.0
+],
+"k2": 450.0
+},
+{
+"top": "DA_B_Board",
+"top_z": 0.0,
+"group": "",
+"part": "DA_B_Board",
+"body": "Foot (3)",
+"volume": 112.0,
+"com": [
+190.0,
+190.0,
+-53.0
+],
+"k2": 450.0
+},
+{
+"top": "DA_B_Spaces",
+"top_z": 0.0,
+"group": "",
+"part": "DA_B_Spaces",
+"body": "PSU (LRS-350-24)",
+"volume": 741.75,
+"com": [
+-137.5,
+190.5,
+15.0
+],
+"k2": 3352.8
+},
+{
+"top": "DA_B_Spaces",
+"top_z": 0.0,
+"group": "",
+"part": "DA_B_Spaces",
+"body": "Board A (base controller)",
+"volume": 96.0,
+"com": [
+20.0,
+218.0,
+10.0
+],
+"k2": 577.8
+},
+{
+"top": "DA_B_Spaces",
+"top_z": 0.0,
+"group": "",
+"part": "DA_B_Spaces",
+"body": "Board B (power)",
+"volume": 31.5,
+"com": [
+15.0,
+165.0,
+7.5
+],
+"k2": 334.7
+},
+{
+"top": "DA_B_Spaces",
+"top_z": 0.0,
+"group": "",
+"part": "DA_B_Spaces",
+"body": "Raspberry Pi 4",
+"volume": 122.55,
+"com": [
+113.0,
+219.5,
+12.5
+],
+"k2": 626.1
+},
+{
+"top": "DA_B_Spaces",
+"top_z": 0.0,
+"group": "",
+"part": "DA_B_Spaces",
+"body": "CANable",
+"volume": 14.4,
+"com": [
+100.0,
+170.0,
+6.0
+],
+"k2": 230.2
+},
+{
+"top": "DA_B_Spaces",
+"top_z": 0.0,
+"group": "",
+"part": "DA_B_Spaces",
+"body": "E-stop box",
+"volume": 392.0,
+"com": [
+215.0,
+-215.0,
+40.0
+],
+"k2": 900.0
+},
+{
+"top": "DA_P_N17_60",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_N17_60",
+"body": "Motor",
+"volume": 107.357,
+"com": [
+0.0,
+0.0,
+-30.0
+],
+"k2": 398.8
+},
+{
+"top": "DA_P_N17_60",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_N17_60",
+"body": "MKS driver",
+"volume": 28.629,
+"com": [
+0.0,
+0.0,
+-68.0
+],
+"k2": 213.0
+},
+{
+"top": "DA_P_N17_60",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_N17_60",
+"body": "Pilot",
+"volume": 0.76,
+"com": [
+-0.0,
+0.0,
+1.0
+],
+"k2": 40.6
+},
+{
+"top": "DA_P_N17_60",
+"top_z": 0.0,
+"group": "",
+"part": "DA_P_N17_60",
+"body": "Shaft",
+"volume": 0.417,
+"com": [
+0.0,
+-0.08,
+12.87
+],
+"k2": 29.1
+}
+]
+}

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deskarm"
+version = "0.1.0"
+description = "Kinematics, IK, trajectories and a digital twin for a 3D-printed 7-DOF desk arm"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.26"]
+
+[project.optional-dependencies]
+twin = ["viser>=1.0", "yourdfpy>=0.0.56"]
+sim = ["mujoco>=3.1"]
+hw = ["python-can>=4.3", "pyserial>=3.5"]
+dev = ["pytest>=8"]
+tools = ["manifold3d>=3.0"]
+
+[project.scripts]
+deskarm-twin = "deskarm.twin:main"
+
+[tool.setuptools]
+packages = ["deskarm"]
+
+[tool.setuptools.package-data]
+deskarm = ["data/*.toml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
